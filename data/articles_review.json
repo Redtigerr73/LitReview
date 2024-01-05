@@ -1,0 +1,1943 @@
+[
+    {
+        "search_metadata": {
+            "id": "6598052aea14424343accd36",
+            "status": "Success",
+            "json_endpoint": "https://serpapi.com/searches/8cf9fa7ca34823ef/6598052aea14424343accd36.json",
+            "created_at": "2024-01-05 13:33:30 UTC",
+            "processed_at": "2024-01-05 13:33:30 UTC",
+            "google_scholar_url": "https://scholar.google.com/scholar?q=multiple+sclerosis+segmentation+deep+learning&hl=en&start=0&num=21&as_ylo=2019&as_rr=1",
+            "raw_html_file": "https://serpapi.com/searches/8cf9fa7ca34823ef/6598052aea14424343accd36.html",
+            "total_time_taken": 0.73
+        },
+        "search_parameters": {
+            "engine": "google_scholar",
+            "q": "multiple sclerosis segmentation deep learning",
+            "hl": "en",
+            "start": 0,
+            "num": "20",
+            "as_ylo": "2019",
+            "as_rr": "1"
+        },
+        "search_information": {
+            "organic_results_state": "Results for exact spelling",
+            "total_results": 4940,
+            "time_taken_displayed": 0.14,
+            "query_displayed": "multiple sclerosis segmentation deep learning"
+        },
+        "organic_results": [
+            {
+                "position": 0,
+                "title": "Review of deep learning approaches for the segmentation of multiple sclerosis lesions on brain MRI",
+                "result_id": "kFZOgxlcIBUJ",
+                "type": "Html",
+                "link": "https://www.frontiersin.org/articles/10.3389/fninf.2020.610967/full",
+                "snippet": "\u2026 multiple sclerosis lesion segmentation based on deep learning. Algorithms based on \u2026 In this paper, we focus on reviewing the deep learning-based MS lesion segmentation methods. \u2026",
+                "publication_info": {
+                    "summary": "C Zeng, L Gu, Z Liu, S Zhao - Frontiers in Neuroinformatics, 2020 - frontiersin.org",
+                    "authors": [
+                        {
+                            "name": "C Zeng",
+                            "link": "https://scholar.google.com/citations?user=zt0bpuYAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=zt0bpuYAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "zt0bpuYAAAAJ"
+                        },
+                        {
+                            "name": "L Gu",
+                            "link": "https://scholar.google.com/citations?user=gIEZe5IAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=gIEZe5IAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "gIEZe5IAAAAJ"
+                        },
+                        {
+                            "name": "S Zhao",
+                            "link": "https://scholar.google.com/citations?user=U68XZOgAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=U68XZOgAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "U68XZOgAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "frontiersin.org",
+                        "file_format": "HTML",
+                        "link": "https://www.frontiersin.org/articles/10.3389/fninf.2020.610967/full"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=kFZOgxlcIBUJ",
+                    "html_version": "https://www.frontiersin.org/articles/10.3389/fninf.2020.610967/full",
+                    "cited_by": {
+                        "total": 60,
+                        "link": "https://scholar.google.com/scholar?cites=1522317938698114704&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "1522317938698114704",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=1522317938698114704&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:kFZOgxlcIBUJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AkFZOgxlcIBUJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 7,
+                        "link": "https://scholar.google.com/scholar?cluster=1522317938698114704&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "1522317938698114704",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=1522317938698114704&engine=google_scholar&hl=en&num=20"
+                    },
+                    "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:kFZOgxlcIBUJ:scholar.google.com/+multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1"
+                }
+            },
+            {
+                "position": 1,
+                "title": "Recent advances in the longitudinal segmentation of multiple sclerosis lesions on magnetic resonance imaging: a review",
+                "result_id": "K4m-XG3nqJsJ",
+                "link": "https://link.springer.com/article/10.1007/s00234-022-03019-3",
+                "snippet": "\u2026 These are divided into traditional machine learning methods and deep learning techniques. \u2026 number of deep learning techniques for longitudinal MS lesion segmentation that are \u2026",
+                "publication_info": {
+                    "summary": "M Diaz-Hurtado, E Mart\u00ednez-Heras, E Solana\u2026 - Neuroradiology, 2022 - Springer"
+                },
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=K4m-XG3nqJsJ",
+                    "cited_by": {
+                        "total": 10,
+                        "link": "https://scholar.google.com/scholar?cites=11216469328859662635&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "11216469328859662635",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=11216469328859662635&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:K4m-XG3nqJsJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AK4m-XG3nqJsJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 4,
+                        "link": "https://scholar.google.com/scholar?cluster=11216469328859662635&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "11216469328859662635",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=11216469328859662635&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 2,
+                "title": "Applications of deep learning techniques for automated multiple sclerosis detection using magnetic resonance imaging: A review",
+                "result_id": "OeYl3jfG22AJ",
+                "link": "https://www.sciencedirect.com/science/article/pii/S0010482521004911",
+                "snippet": "\u2026 All dataset images were segmented by \u2026 segmented from the CHB expert [77]. The test dataset includes 25 samples (15 CHB samples and 10 UNC samples) without any segmentation [\u2026",
+                "publication_info": {
+                    "summary": "A Shoeibi, M Khodatars, M Jafari, P Moridian\u2026 - Computers in Biology \u2026, 2021 - Elsevier",
+                    "authors": [
+                        {
+                            "name": "A Shoeibi",
+                            "link": "https://scholar.google.com/citations?user=d-65NQwAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=d-65NQwAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "d-65NQwAAAAJ"
+                        },
+                        {
+                            "name": "P Moridian",
+                            "link": "https://scholar.google.com/citations?user=eck1PJ0AAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=eck1PJ0AAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "eck1PJ0AAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "arxiv.org",
+                        "file_format": "PDF",
+                        "link": "https://arxiv.org/pdf/2105.04881"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=OeYl3jfG22AJ",
+                    "cited_by": {
+                        "total": 120,
+                        "link": "https://scholar.google.com/scholar?cites=6979389990793242169&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "6979389990793242169",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=6979389990793242169&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:OeYl3jfG22AJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AOeYl3jfG22AJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 11,
+                        "link": "https://scholar.google.com/scholar?cluster=6979389990793242169&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "6979389990793242169",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=6979389990793242169&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 3,
+                "title": "Multiple sclerosis lesion analysis in brain magnetic resonance images: techniques and clinical applications",
+                "result_id": "sF7K2VdQ99kJ",
+                "link": "https://ieeexplore.ieee.org/abstract/document/9714822/",
+                "snippet": "\u2026 complex lesion representations directly from images, deep learning techniques have \u2026 -the-art automatic statistical and deep-learning MS segmentation methods and discuss current and \u2026",
+                "publication_info": {
+                    "summary": "Y Ma, C Zhang, M Cabezas, Y Song\u2026 - IEEE Journal of \u2026, 2022 - ieeexplore.ieee.org",
+                    "authors": [
+                        {
+                            "name": "Y Ma",
+                            "link": "https://scholar.google.com/citations?user=hYCFFyMAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=hYCFFyMAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "hYCFFyMAAAAJ"
+                        },
+                        {
+                            "name": "C Zhang",
+                            "link": "https://scholar.google.com/citations?user=GSM6eT0AAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=GSM6eT0AAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "GSM6eT0AAAAJ"
+                        },
+                        {
+                            "name": "M Cabezas",
+                            "link": "https://scholar.google.com/citations?user=zPs-kAkAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=zPs-kAkAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "zPs-kAkAAAAJ"
+                        },
+                        {
+                            "name": "Y Song",
+                            "link": "https://scholar.google.com/citations?user=7u3M9hMAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=7u3M9hMAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "7u3M9hMAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "arxiv.org",
+                        "file_format": "PDF",
+                        "link": "https://arxiv.org/pdf/2104.10029"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=sF7K2VdQ99kJ",
+                    "cited_by": {
+                        "total": 22,
+                        "link": "https://scholar.google.com/scholar?cites=15706110563724189360&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "15706110563724189360",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=15706110563724189360&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:sF7K2VdQ99kJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AsF7K2VdQ99kJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 5,
+                        "link": "https://scholar.google.com/scholar?cluster=15706110563724189360&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "15706110563724189360",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=15706110563724189360&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 4,
+                "title": "Multiple sclerosis diagnosis using machine learning and deep learning: Challenges and opportunities",
+                "result_id": "eq39WChKT-8J",
+                "link": "https://www.mdpi.com/1424-8220/22/20/7856",
+                "snippet": "\u2026 these papers are multiple sclerosis, diagnosis, machine learning, and deep learning. The main \u2026 architectures for the automated segmenting of white matter lesions in MRI for people with \u2026",
+                "publication_info": {
+                    "summary": "N Aslam, IU Khan, A Bashamakh, FA Alghool\u2026 - Sensors, 2022 - mdpi.com",
+                    "authors": [
+                        {
+                            "name": "N Aslam",
+                            "link": "https://scholar.google.com/citations?user=qa1bnAwAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=qa1bnAwAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "qa1bnAwAAAAJ"
+                        },
+                        {
+                            "name": "IU Khan",
+                            "link": "https://scholar.google.com/citations?user=bD19pNQAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=bD19pNQAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "bD19pNQAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "mdpi.com",
+                        "file_format": "PDF",
+                        "link": "https://www.mdpi.com/1424-8220/22/20/7856/pdf"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=eq39WChKT-8J",
+                    "cited_by": {
+                        "total": 17,
+                        "link": "https://scholar.google.com/scholar?cites=17244083035377085818&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "17244083035377085818",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=17244083035377085818&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:eq39WChKT-8J:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3Aeq39WChKT-8J%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 9,
+                        "link": "https://scholar.google.com/scholar?cluster=17244083035377085818&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "17244083035377085818",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=17244083035377085818&engine=google_scholar&hl=en&num=20"
+                    },
+                    "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:eq39WChKT-8J:scholar.google.com/+multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1"
+                }
+            },
+            {
+                "position": 5,
+                "title": "Segmentation and Classification of Multiple Sclerosis Using Deep Learning Networks: A Review",
+                "result_id": "OOKV4d-NaTwJ",
+                "link": "https://link.springer.com/chapter/10.1007/978-981-99-0609-3_29",
+                "snippet": "\u2026 Segmentation and classification of multiple sclerosis lesions are very important in helping \u2026 deep learning networks for segmenting and classifying the brain tissues of multiple sclerosis \u2026",
+                "publication_info": {
+                    "summary": "VP Nasheeda, V Rajangam - International Conference on Computational \u2026, 2022 - Springer"
+                },
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=OOKV4d-NaTwJ",
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:OOKV4d-NaTwJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AOOKV4d-NaTwJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 2,
+                        "link": "https://scholar.google.com/scholar?cluster=4353166507532214840&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "4353166507532214840",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=4353166507532214840&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 6,
+                "title": "Multiple Sclerosis Segmentation using Deep Learning Models: Comparative Study",
+                "result_id": "z-684dsv4iYJ",
+                "link": "https://ieeexplore.ieee.org/abstract/document/9805983/",
+                "snippet": "\u2026 Therefore, it is widely believed that successful deep models can achieve good performance [\u2026 \u2019 segmentation based on especially Deep Learning (DL) models. Such deep learning \u2026",
+                "publication_info": {
+                    "summary": "A Alrabai, A Echtioui, AB Hamida - 2022 6th International \u2026, 2022 - ieeexplore.ieee.org",
+                    "authors": [
+                        {
+                            "name": "A Echtioui",
+                            "link": "https://scholar.google.com/citations?user=zRWGsu4AAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=zRWGsu4AAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "zRWGsu4AAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "researchgate.net",
+                        "file_format": "PDF",
+                        "link": "https://www.researchgate.net/profile/Amira-Echtioui/publication/361642547_Multiple_Sclerosis_Segmentation_using_Deep_Learning_Models_Comparative_Study/links/62bdab611a496037c7d01699/Multiple-Sclerosis-Segmentation-using-Deep-Learning-Models-Comparative-Study.pdf"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=z-684dsv4iYJ",
+                    "cited_by": {
+                        "total": 1,
+                        "link": "https://scholar.google.com/scholar?cites=2801854539609468623&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "2801854539609468623",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=2801854539609468623&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:z-684dsv4iYJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3Az-684dsv4iYJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 2,
+                        "link": "https://scholar.google.com/scholar?cluster=2801854539609468623&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "2801854539609468623",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=2801854539609468623&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 7,
+                "title": "Machine learning approaches in study of multiple sclerosis disease through magnetic resonance images",
+                "result_id": "cQWQzN6jL8UJ",
+                "type": "Html",
+                "link": "https://www.frontiersin.org/articles/10.3389/fimmu.2021.700582/full",
+                "snippet": "\u2026 The purpose of this review is to highlight the main applications of Machine Learning (ML) \u2026 using ML learning techniques are used to apply automatic segmentation on MR images. \u2026",
+                "publication_info": {
+                    "summary": "F Moazami, A Lefevre-Utile, C Papaloukas\u2026 - Frontiers in \u2026, 2021 - frontiersin.org",
+                    "authors": [
+                        {
+                            "name": "A Lefevre-Utile",
+                            "link": "https://scholar.google.com/citations?user=jcHRvYcAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=jcHRvYcAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "jcHRvYcAAAAJ"
+                        },
+                        {
+                            "name": "C Papaloukas",
+                            "link": "https://scholar.google.com/citations?user=GtdwV9UAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=GtdwV9UAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "GtdwV9UAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "frontiersin.org",
+                        "file_format": "HTML",
+                        "link": "https://www.frontiersin.org/articles/10.3389/fimmu.2021.700582/full"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=cQWQzN6jL8UJ",
+                    "html_version": "https://www.frontiersin.org/articles/10.3389/fimmu.2021.700582/full",
+                    "cited_by": {
+                        "total": 21,
+                        "link": "https://scholar.google.com/scholar?cites=14208755526687262065&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "14208755526687262065",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=14208755526687262065&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:cQWQzN6jL8UJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AcQWQzN6jL8UJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 5,
+                        "link": "https://scholar.google.com/scholar?cluster=14208755526687262065&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "14208755526687262065",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=14208755526687262065&engine=google_scholar&hl=en&num=20"
+                    },
+                    "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:cQWQzN6jL8UJ:scholar.google.com/+multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1"
+                }
+            },
+            {
+                "position": 8,
+                "title": "Emerging deep learning techniques using magnetic resonance imaging data applied in multiple sclerosis and clinical isolated syndrome patients",
+                "result_id": "aQgN8QjEvxYJ",
+                "type": "Html",
+                "link": "https://www.spandidos-publications.com/10.3892/etm.2021.10583",
+                "snippet": "\u2026 using keywords: \u2018deep learning\u2019 AND \u2018multiple sclerosis\u2019, 74 \u2026 for diagnosis tasks, segmentation tasks and clinical protocol \u2026 broad categories ie, i) segmentation of MS and CIS lesions; ii\u2026",
+                "publication_info": {
+                    "summary": "EE Kontopodis, E Papadaki\u2026 - Experimental and \u2026, 2021 - spandidos-publications.com",
+                    "authors": [
+                        {
+                            "name": "EE Kontopodis",
+                            "link": "https://scholar.google.com/citations?user=NnnOKjIAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=NnnOKjIAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "NnnOKjIAAAAJ"
+                        },
+                        {
+                            "name": "E Papadaki",
+                            "link": "https://scholar.google.com/citations?user=bpgjCcwAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=bpgjCcwAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "bpgjCcwAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "spandidos-publications.com",
+                        "file_format": "HTML",
+                        "link": "https://www.spandidos-publications.com/10.3892/etm.2021.10583"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=aQgN8QjEvxYJ",
+                    "html_version": "https://www.spandidos-publications.com/10.3892/etm.2021.10583",
+                    "cited_by": {
+                        "total": 7,
+                        "link": "https://scholar.google.com/scholar?cites=1639244332069095529&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "1639244332069095529",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=1639244332069095529&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:aQgN8QjEvxYJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AaQgN8QjEvxYJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 10,
+                        "link": "https://scholar.google.com/scholar?cluster=1639244332069095529&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "1639244332069095529",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=1639244332069095529&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 9,
+                "title": "The emerging role of artificial intelligence in multiple sclerosis imaging",
+                "result_id": "en96TDj3xgEJ",
+                "link": "https://journals.sagepub.com/doi/abs/10.1177/1352458520966298",
+                "snippet": "\u2026 Deep learning of image features from unlabeled data for multiple sclerosis lesion segmentation. In: International workshop on machine learning in medical imaging, Boston, MA, 14 \u2026",
+                "publication_info": {
+                    "summary": "HMR Afzal, S Luo, S Ramadan\u2026 - Multiple Sclerosis \u2026, 2022 - journals.sagepub.com",
+                    "authors": [
+                        {
+                            "name": "HMR Afzal",
+                            "link": "https://scholar.google.com/citations?user=UBh0O1wAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=UBh0O1wAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "UBh0O1wAAAAJ"
+                        },
+                        {
+                            "name": "S Luo",
+                            "link": "https://scholar.google.com/citations?user=mOEp1z8AAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=mOEp1z8AAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "mOEp1z8AAAAJ"
+                        }
+                    ]
+                },
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=en96TDj3xgEJ",
+                    "cited_by": {
+                        "total": 34,
+                        "link": "https://scholar.google.com/scholar?cites=128061460599963514&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "128061460599963514",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=128061460599963514&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:en96TDj3xgEJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3Aen96TDj3xgEJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 5,
+                        "link": "https://scholar.google.com/scholar?cluster=128061460599963514&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "128061460599963514",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=128061460599963514&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 10,
+                "title": "A survey of deep learning methods for multiple sclerosis identification using brain MRI images",
+                "result_id": "UqoGWr94_XMJ",
+                "link": "https://link.springer.com/article/10.1007/s00521-022-07099-3",
+                "snippet": "\u2026 We discuss recent trends of deep learning methods for MS identification under three \u2026 focus on deep learning-based algorithms that identify MS without the need of segmentation. \u2026",
+                "publication_info": {
+                    "summary": "M Sah, C Direkoglu - Neural Computing and Applications, 2022 - Springer",
+                    "authors": [
+                        {
+                            "name": "M Sah",
+                            "link": "https://scholar.google.com/citations?user=hTwUPQcAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=hTwUPQcAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "hTwUPQcAAAAJ"
+                        },
+                        {
+                            "name": "C Direkoglu",
+                            "link": "https://scholar.google.com/citations?user=DMIUAvgAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=DMIUAvgAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "DMIUAvgAAAAJ"
+                        }
+                    ]
+                },
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=UqoGWr94_XMJ",
+                    "cited_by": {
+                        "total": 11,
+                        "link": "https://scholar.google.com/scholar?cites=8357969246713981522&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "8357969246713981522",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=8357969246713981522&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:UqoGWr94_XMJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AUqoGWr94_XMJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 5,
+                        "link": "https://scholar.google.com/scholar?cluster=8357969246713981522&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "8357969246713981522",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=8357969246713981522&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 11,
+                "title": "Automated MS lesion detection and segmentation in clinical workflow: a systematic review.",
+                "result_id": "QBJ_LUExeowJ",
+                "type": "Html",
+                "link": "https://www.sciencedirect.com/science/article/pii/S2213158223001821",
+                "snippet": "\u2026 the deep learning community has developed and validated a plethora of tools for lesion detection and segmentation in Multiple Sclerosis \u2026 automated detection and segmentation into the \u2026",
+                "publication_info": {
+                    "summary": "F Spagnolo, A Depeursinge, S Sch\u00e4delin, A Akbulut\u2026 - NeuroImage: Clinical, 2023 - Elsevier",
+                    "authors": [
+                        {
+                            "name": "A Depeursinge",
+                            "link": "https://scholar.google.com/citations?user=d6PRobAAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=d6PRobAAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "d6PRobAAAAAJ"
+                        },
+                        {
+                            "name": "A Akbulut",
+                            "link": "https://scholar.google.com/citations?user=20il76gAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=20il76gAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "20il76gAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "sciencedirect.com",
+                        "file_format": "HTML",
+                        "link": "https://www.sciencedirect.com/science/article/pii/S2213158223001821"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=QBJ_LUExeowJ",
+                    "html_version": "https://www.sciencedirect.com/science/article/pii/S2213158223001821",
+                    "cited_by": {
+                        "total": 1,
+                        "link": "https://scholar.google.com/scholar?cites=10122457268474548800&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "10122457268474548800",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=10122457268474548800&engine=google_scholar&hl=en&num=20"
+                    },
+                    "versions": {
+                        "total": 9,
+                        "link": "https://scholar.google.com/scholar?cluster=10122457268474548800&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "10122457268474548800",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=10122457268474548800&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 12,
+                "title": "Cortical lesions, central vein sign, and paramagnetic rim lesions in multiple sclerosis: Emerging machine learning techniques and future avenues",
+                "result_id": "ix_p84NSZUsJ",
+                "type": "Html",
+                "link": "https://www.sciencedirect.com/science/article/pii/S2213158222002704",
+                "snippet": "\u2026 As machine learning-based methods have achieved \u2026 , such as white matter lesion segmentation, several automated or \u2026 Subsequently, we describe the corresponding machine \u2026",
+                "publication_info": {
+                    "summary": "F La Rosa, M Wynen, O Al-Louzi, ES Beck\u2026 - NeuroImage: Clinical, 2022 - Elsevier",
+                    "authors": [
+                        {
+                            "name": "F La Rosa",
+                            "link": "https://scholar.google.com/citations?user=OEE8Ze0AAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=OEE8Ze0AAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "OEE8Ze0AAAAJ"
+                        },
+                        {
+                            "name": "M Wynen",
+                            "link": "https://scholar.google.com/citations?user=9EfXpZUAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=9EfXpZUAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "9EfXpZUAAAAJ"
+                        },
+                        {
+                            "name": "O Al-Louzi",
+                            "link": "https://scholar.google.com/citations?user=ikQXpQIAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ikQXpQIAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "ikQXpQIAAAAJ"
+                        },
+                        {
+                            "name": "ES Beck",
+                            "link": "https://scholar.google.com/citations?user=XrlDT4oAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=XrlDT4oAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "XrlDT4oAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "sciencedirect.com",
+                        "file_format": "HTML",
+                        "link": "https://www.sciencedirect.com/science/article/pii/S2213158222002704"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=ix_p84NSZUsJ",
+                    "html_version": "https://www.sciencedirect.com/science/article/pii/S2213158222002704",
+                    "cited_by": {
+                        "total": 14,
+                        "link": "https://scholar.google.com/scholar?cites=5432839252178706315&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "5432839252178706315",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=5432839252178706315&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:ix_p84NSZUsJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3Aix_p84NSZUsJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 13,
+                        "link": "https://scholar.google.com/scholar?cluster=5432839252178706315&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "5432839252178706315",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=5432839252178706315&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 13,
+                "title": "Artificial intelligence in the diagnosis of multiple sclerosis: A systematic review",
+                "result_id": "r57vSbCkblgJ",
+                "link": "https://www.sciencedirect.com/science/article/pii/S2211034822001882",
+                "snippet": "\u2026 There are different subfields for AI but mainly include deep learning (DL), machine learning (\u2026 automatic segmentation methods have been proposed, manual segmentation performed by \u2026",
+                "publication_info": {
+                    "summary": "F Nabizadeh, S Masrouri, E Ramezannezhad\u2026 - Multiple Sclerosis and \u2026, 2022 - Elsevier",
+                    "authors": [
+                        {
+                            "name": "F Nabizadeh",
+                            "link": "https://scholar.google.com/citations?user=NTjYnvoAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=NTjYnvoAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "NTjYnvoAAAAJ"
+                        }
+                    ]
+                },
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=r57vSbCkblgJ",
+                    "cited_by": {
+                        "total": 14,
+                        "link": "https://scholar.google.com/scholar?cites=6372211599837470383&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "6372211599837470383",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=6372211599837470383&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:r57vSbCkblgJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3Ar57vSbCkblgJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 6,
+                        "link": "https://scholar.google.com/scholar?cluster=6372211599837470383&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "6372211599837470383",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=6372211599837470383&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 14,
+                "title": "Quantifying deep grey matter atrophy using automated segmentation approaches: A systematic review of structural MRI studies",
+                "result_id": "ZGtW2LdoCiUJ",
+                "link": "https://www.sciencedirect.com/science/article/pii/S1053811919305993",
+                "snippet": "\u2026 impact of multiple neurological conditions affecting these structures, such as Multiple Sclerosis (MS\u2026 Image segmentation using deep learning approaches, most commonly Convolutional \u2026",
+                "publication_info": {
+                    "summary": "AM Pagnozzi, J Fripp, SE Rose - Neuroimage, 2019 - Elsevier",
+                    "authors": [
+                        {
+                            "name": "AM Pagnozzi",
+                            "link": "https://scholar.google.com/citations?user=7zxJFQwAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=7zxJFQwAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "7zxJFQwAAAAJ"
+                        },
+                        {
+                            "name": "J Fripp",
+                            "link": "https://scholar.google.com/citations?user=kNC3dD4AAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=kNC3dD4AAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "kNC3dD4AAAAJ"
+                        },
+                        {
+                            "name": "SE Rose",
+                            "link": "https://scholar.google.com/citations?user=2W3j-84AAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=2W3j-84AAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "2W3j-84AAAAJ"
+                        }
+                    ]
+                },
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=ZGtW2LdoCiUJ",
+                    "cited_by": {
+                        "total": 23,
+                        "link": "https://scholar.google.com/scholar?cites=2669060867988286308&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "2669060867988286308",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=2669060867988286308&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:ZGtW2LdoCiUJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AZGtW2LdoCiUJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 5,
+                        "link": "https://scholar.google.com/scholar?cluster=2669060867988286308&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "2669060867988286308",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=2669060867988286308&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 15,
+                "title": "Current review and next steps for artificial intelligence in multiple sclerosis risk research",
+                "result_id": "0RFemdlL-WsJ",
+                "link": "https://www.sciencedirect.com/science/article/pii/S0010482521001311",
+                "snippet": "\u2026 216 papers using terms \u201cMultiple Sclerosis\u201d, \u201cmachine learning\u201d, \u201c\u2026 involve the detection and segmentation of MS lesions for \u2026 Forty-one papers involve lesion detection and segmentation \u2026",
+                "publication_info": {
+                    "summary": "M Hartmann, N Fenton, R Dobson - Computers in Biology and Medicine, 2021 - Elsevier",
+                    "authors": [
+                        {
+                            "name": "M Hartmann",
+                            "link": "https://scholar.google.com/citations?user=3hjlZAQAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=3hjlZAQAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "3hjlZAQAAAAJ"
+                        },
+                        {
+                            "name": "N Fenton",
+                            "link": "https://scholar.google.com/citations?user=0APV5ScAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0APV5ScAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "0APV5ScAAAAJ"
+                        },
+                        {
+                            "name": "R Dobson",
+                            "link": "https://scholar.google.com/citations?user=VCQeqSwAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=VCQeqSwAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "VCQeqSwAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "qmul.ac.uk",
+                        "file_format": "DOC",
+                        "link": "https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/71187/Dobson%20Current%20Review%20and%202021%20Accepted.docx?sequence=2"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=0RFemdlL-WsJ",
+                    "cited_by": {
+                        "total": 11,
+                        "link": "https://scholar.google.com/scholar?cites=7780333229212307921&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "7780333229212307921",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=7780333229212307921&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:0RFemdlL-WsJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3A0RFemdlL-WsJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 8,
+                        "link": "https://scholar.google.com/scholar?cluster=7780333229212307921&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "7780333229212307921",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=7780333229212307921&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 16,
+                "title": "Machine Learning in Multiple Sclerosis",
+                "result_id": "5GUseixttT8J",
+                "type": "Html",
+                "link": "https://link.springer.com/protocol/10.1007/978-1-0716-3195-9_28",
+                "snippet": "\u2026 Machine learning techniques have been employed in an attempt to \u2026 machine learning techniques are employed in MS with applications for diagnostic classification, lesion segmentation, \u2026",
+                "publication_info": {
+                    "summary": "B Jasperse, F Barkhof - Machine Learning for Brain Disorders, 2023 - Springer",
+                    "authors": [
+                        {
+                            "name": "F Barkhof",
+                            "link": "https://scholar.google.com/citations?user=rjEG-7EAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=rjEG-7EAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "rjEG-7EAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "springer.com",
+                        "file_format": "HTML",
+                        "link": "https://link.springer.com/protocol/10.1007/978-1-0716-3195-9_28"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=5GUseixttT8J",
+                    "html_version": "https://link.springer.com/protocol/10.1007/978-1-0716-3195-9_28",
+                    "versions": {
+                        "total": 9,
+                        "link": "https://scholar.google.com/scholar?cluster=4590695432969807332&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "4590695432969807332",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=4590695432969807332&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 17,
+                "title": "A systematic review of the application of machine-learning algorithms in multiple sclerosis",
+                "result_id": "2el4rwWcO9UJ",
+                "type": "Html",
+                "link": "https://www.sciencedirect.com/science/article/pii/S217358082200075X",
+                "snippet": "\u2026 where ML achieves more precise segmentation of the retinal layer and macular oedema than other more time-consuming methods, as the segmentation operation only takes 10 seconds\u2026",
+                "publication_info": {
+                    "summary": "M V\u00e1zquez-Marrufo, E Sarrias-Arrabal\u2026 - Neurolog\u00eda (English \u2026, 2022 - Elsevier",
+                    "authors": [
+                        {
+                            "name": "E Sarrias-Arrabal",
+                            "link": "https://scholar.google.com/citations?user=BnLmhfYAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BnLmhfYAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "BnLmhfYAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "sciencedirect.com",
+                        "file_format": "HTML",
+                        "link": "https://www.sciencedirect.com/science/article/pii/S217358082200075X"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=2el4rwWcO9UJ",
+                    "html_version": "https://www.sciencedirect.com/science/article/pii/S217358082200075X",
+                    "cited_by": {
+                        "total": 7,
+                        "link": "https://scholar.google.com/scholar?cites=15365046101937285593&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "15365046101937285593",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=15365046101937285593&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:2el4rwWcO9UJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3A2el4rwWcO9UJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 5,
+                        "link": "https://scholar.google.com/scholar?cluster=15365046101937285593&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "15365046101937285593",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=15365046101937285593&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 18,
+                "title": "Deep learning and radiomics based automatic diagnosis of hippocampal sclerosis",
+                "result_id": "LxdLFw-VCqMJ",
+                "link": "https://www.tandfonline.com/doi/abs/10.1080/00207454.2021.2018428",
+                "snippet": "\u2026 First, we propose an automatic segmentation method that \u2026 deep-learning segmentation network based on an attention U-Net. Then, we applied radiomics to detect hippocampal sclerosis\u2026",
+                "publication_info": {
+                    "summary": "D Zhang, Y Tong, Z Hu, G Wu, J He, Z Fan\u2026 - International Journal \u2026, 2023 - Taylor & Francis"
+                },
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=LxdLFw-VCqMJ",
+                    "cited_by": {
+                        "total": 5,
+                        "link": "https://scholar.google.com/scholar?cites=11748366469997205295&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "11748366469997205295",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=11748366469997205295&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:LxdLFw-VCqMJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3ALxdLFw-VCqMJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 3,
+                        "link": "https://scholar.google.com/scholar?cluster=11748366469997205295&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "11748366469997205295",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=11748366469997205295&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 19,
+                "title": "MRI segmentation and classification of human brain using deep learning for diagnosis of Alzheimer's disease: a survey",
+                "result_id": "o0cFoLB7vbAJ",
+                "link": "https://www.mdpi.com/1424-8220/20/11/3243",
+                "snippet": "\u2026 Disorders such as Alzheimer\u2019s disease (AD) and multiple sclerosis [3] associated with the brain can be identified using MRI. Tissue atrophy is a popular indicator that is used in \u2026",
+                "publication_info": {
+                    "summary": "N Yamanakkanavar, JY Choi, B Lee - Sensors, 2020 - mdpi.com",
+                    "authors": [
+                        {
+                            "name": "B Lee",
+                            "link": "https://scholar.google.com/citations?user=maY0q9IAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=maY0q9IAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "maY0q9IAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "mdpi.com",
+                        "file_format": "PDF",
+                        "link": "https://www.mdpi.com/1424-8220/20/11/3243/pdf"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=o0cFoLB7vbAJ",
+                    "cited_by": {
+                        "total": 131,
+                        "link": "https://scholar.google.com/scholar?cites=12735471319802791843&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "12735471319802791843",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=12735471319802791843&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:o0cFoLB7vbAJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3Ao0cFoLB7vbAJ%3Ascholar.google.com%2F&start=0",
+                    "versions": {
+                        "total": 9,
+                        "link": "https://scholar.google.com/scholar?cluster=12735471319802791843&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "12735471319802791843",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=12735471319802791843&engine=google_scholar&hl=en&num=20"
+                    },
+                    "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:o0cFoLB7vbAJ:scholar.google.com/+multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1"
+                }
+            }
+        ],
+        "related_searches": [
+            {
+                "query": "sclerosis segmentation deep learning models",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=1&q=sclerosis+segmentation+deep+learning+models&qst=br"
+            },
+            {
+                "query": "sclerosis lesion segmentation deep learning",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=2&q=sclerosis+lesion+segmentation+deep+learning&qst=br"
+            },
+            {
+                "query": "multiple sclerosis identification",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=3&q=multiple+sclerosis+identification&qst=br"
+            },
+            {
+                "query": "convolutional neural networks multiple sclerosis lesions",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=4&q=convolutional+neural+networks+multiple+sclerosis+lesions&qst=br"
+            },
+            {
+                "query": "multiple sclerosis diagnosis",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=5&q=multiple+sclerosis+diagnosis&qst=br"
+            },
+            {
+                "query": "systematic review multiple sclerosis",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=6&q=systematic+review+multiple+sclerosis&qst=br"
+            },
+            {
+                "query": "deep learning approach",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=7&q=deep+learning+approach&qst=br"
+            },
+            {
+                "query": "artificial intelligence multiple sclerosis",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=8&q=artificial+intelligence+multiple+sclerosis&qst=br"
+            },
+            {
+                "query": "deep learning techniques",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=9&q=deep+learning+techniques&qst=br"
+            },
+            {
+                "query": "multiple sclerosis disease machine learning",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=10&q=multiple+sclerosis+disease+machine+learning&qst=br"
+            },
+            {
+                "query": "images by deep learning multiple sclerosis",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=11&q=images+by+deep+learning+multiple+sclerosis&qst=br"
+            },
+            {
+                "query": "deep learning networks multiple sclerosis",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=12&q=deep+learning+networks+multiple+sclerosis&qst=br"
+            },
+            {
+                "query": "detection of multiple sclerosis deep learning",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=13&q=detection+of+multiple+sclerosis+deep+learning&qst=br"
+            },
+            {
+                "query": "comparative study multiple sclerosis segmentation",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=14&q=comparative+study+multiple+sclerosis+segmentation&qst=br"
+            },
+            {
+                "query": "role of machine learning multiple sclerosis",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=15&q=role+of+machine+learning+multiple+sclerosis&qst=br"
+            },
+            {
+                "query": "segmentation of multiple sclerosis lesions",
+                "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=16&q=segmentation+of+multiple+sclerosis+lesions&qst=br"
+            }
+        ],
+        "pagination": {
+            "current": 1,
+            "next": "https://scholar.google.com/scholar?start=20&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+            "other_pages": {
+                "2": "https://scholar.google.com/scholar?start=20&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "3": "https://scholar.google.com/scholar?start=40&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "4": "https://scholar.google.com/scholar?start=60&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "5": "https://scholar.google.com/scholar?start=80&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "6": "https://scholar.google.com/scholar?start=100&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "7": "https://scholar.google.com/scholar?start=120&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "8": "https://scholar.google.com/scholar?start=140&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "9": "https://scholar.google.com/scholar?start=160&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "10": "https://scholar.google.com/scholar?start=180&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1"
+            }
+        },
+        "serpapi_pagination": {
+            "current": 1,
+            "next_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=20",
+            "next": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=20",
+            "other_pages": {
+                "2": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=20",
+                "3": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=40",
+                "4": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=60",
+                "5": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=80",
+                "6": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=100",
+                "7": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=120",
+                "8": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=140",
+                "9": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=160",
+                "10": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=180"
+            }
+        }
+    },
+    {
+        "search_metadata": {
+            "id": "6598052cd04d6d0ca4b63909",
+            "status": "Success",
+            "json_endpoint": "https://serpapi.com/searches/b26b5aed468aa9e9/6598052cd04d6d0ca4b63909.json",
+            "created_at": "2024-01-05 13:33:32 UTC",
+            "processed_at": "2024-01-05 13:33:32 UTC",
+            "google_scholar_url": "https://scholar.google.com/scholar?q=multiple+sclerosis+segmentation+deep+learning&hl=en&start=21&num=21&as_ylo=2019&as_rr=1",
+            "raw_html_file": "https://serpapi.com/searches/b26b5aed468aa9e9/6598052cd04d6d0ca4b63909.html",
+            "total_time_taken": 0.74
+        },
+        "search_parameters": {
+            "engine": "google_scholar",
+            "q": "multiple sclerosis segmentation deep learning",
+            "hl": "en",
+            "start": 21,
+            "num": "20",
+            "as_ylo": "2019",
+            "as_rr": "1"
+        },
+        "search_information": {
+            "organic_results_state": "Results for exact spelling",
+            "total_results": 4940,
+            "page_number": 2,
+            "time_taken_displayed": 0.12,
+            "query_displayed": "multiple sclerosis segmentation deep learning"
+        },
+        "organic_results": [
+            {
+                "position": 0,
+                "title": "Automatic segmentation of white matter hyperintensities from brain magnetic resonance images in the era of deep learning and big data\u2013A systematic review",
+                "result_id": "lxMMGkhSvrwJ",
+                "type": "Html",
+                "link": "https://www.sciencedirect.com/science/article/pii/S089561112100015X",
+                "snippet": "\u2026 , cardiovascular disease, multiple sclerosis, other autoimmune \u2026 WMH volumes through image segmentation: \u201ca process which \u2026 Essential for digital image segmentation is recognition of \u2026",
+                "publication_info": {
+                    "summary": "R Balakrishnan, MCV Hern\u00e1ndez, AJ Farrall - \u2026 Medical Imaging and \u2026, 2021 - Elsevier",
+                    "authors": [
+                        {
+                            "name": "AJ Farrall",
+                            "link": "https://scholar.google.com/citations?user=djRkCnUAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=djRkCnUAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "djRkCnUAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "sciencedirect.com",
+                        "file_format": "HTML",
+                        "link": "https://www.sciencedirect.com/science/article/pii/S089561112100015X"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=lxMMGkhSvrwJ",
+                    "html_version": "https://www.sciencedirect.com/science/article/pii/S089561112100015X",
+                    "cited_by": {
+                        "total": 40,
+                        "link": "https://scholar.google.com/scholar?cites=13600398394333598615&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "13600398394333598615",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=13600398394333598615&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:lxMMGkhSvrwJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AlxMMGkhSvrwJ%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 8,
+                        "link": "https://scholar.google.com/scholar?cluster=13600398394333598615&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "13600398394333598615",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=13600398394333598615&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 1,
+                "title": "Role of artificial intelligence in MS clinical practice",
+                "result_id": "CJSxzZEX5vcJ",
+                "type": "Html",
+                "link": "https://www.sciencedirect.com/science/article/pii/S2213158222001309",
+                "snippet": "\u2026 and management of patients with multiple sclerosis (MS), this \u2026 automated lesion and tissue segmentation. However, several \u2026 learning OR deep learning OR neural networks OR random \u2026",
+                "publication_info": {
+                    "summary": "R Bonacchi, M Filippi, MA Rocca - NeuroImage: Clinical, 2022 - Elsevier",
+                    "authors": [
+                        {
+                            "name": "MA Rocca",
+                            "link": "https://scholar.google.com/citations?user=m2EqEcIAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=m2EqEcIAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "m2EqEcIAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "sciencedirect.com",
+                        "file_format": "HTML",
+                        "link": "https://www.sciencedirect.com/science/article/pii/S2213158222001309"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=CJSxzZEX5vcJ",
+                    "html_version": "https://www.sciencedirect.com/science/article/pii/S2213158222001309",
+                    "cited_by": {
+                        "total": 22,
+                        "link": "https://scholar.google.com/scholar?cites=17862990887000314888&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "17862990887000314888",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=17862990887000314888&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:CJSxzZEX5vcJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3ACJSxzZEX5vcJ%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 5,
+                        "link": "https://scholar.google.com/scholar?cluster=17862990887000314888&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "17862990887000314888",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=17862990887000314888&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 2,
+                "title": "Artificial Intelligence for Multiple Sclerosis Management Using Retinal Images: Pearl, Peaks, and Pitfalls",
+                "result_id": "nmsSAzWwfZkJ",
+                "link": "https://www.tandfonline.com/doi/abs/10.1080/08820538.2023.2293030",
+                "snippet": "\u2026 Citation58 There are various types of unsupervised segmentation techniques, but in the context of deep learning, we mainly focus on three categories of models for image segmentation \u2026",
+                "publication_info": {
+                    "summary": "S Farabi Maleki, M Yousefi, S Afshar\u2026 - Seminars in \u2026, 2023 - Taylor & Francis",
+                    "authors": [
+                        {
+                            "name": "S Farabi Maleki",
+                            "link": "https://scholar.google.com/citations?user=ES7MZBQAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ES7MZBQAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "ES7MZBQAAAAJ"
+                        },
+                        {
+                            "name": "M Yousefi",
+                            "link": "https://scholar.google.com/citations?user=6F2pgMwAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=6F2pgMwAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "6F2pgMwAAAAJ"
+                        }
+                    ]
+                },
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=nmsSAzWwfZkJ",
+                    "versions": {
+                        "total": 5,
+                        "link": "https://scholar.google.com/scholar?cluster=11060190001623100318&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "11060190001623100318",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=11060190001623100318&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 3,
+                "title": "Multimodal image analysis for assessing multiple sclerosis and future prospects powered by artificial intelligence",
+                "result_id": "l6rvo-2VSF0J",
+                "link": "https://www.sciencedirect.com/science/article/pii/S0887217120300135",
+                "snippet": "\u2026 of automated lesion segmentation uses machine learning-based approaches powered by advanced deep learning, the cutting-edge technology in artificial intelligence. The learning-\u2026",
+                "publication_info": {
+                    "summary": "M Kim, V Jewells - Seminars in Ultrasound, CT and MRI, 2020 - Elsevier",
+                    "authors": [
+                        {
+                            "name": "M Kim",
+                            "link": "https://scholar.google.com/citations?user=m26d_0cAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=m26d_0cAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "m26d_0cAAAAJ"
+                        }
+                    ]
+                },
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=l6rvo-2VSF0J",
+                    "cited_by": {
+                        "total": 3,
+                        "link": "https://scholar.google.com/scholar?cites=6721787291740646039&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "6721787291740646039",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=6721787291740646039&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:l6rvo-2VSF0J:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3Al6rvo-2VSF0J%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 3,
+                        "link": "https://scholar.google.com/scholar?cluster=6721787291740646039&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "6721787291740646039",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=6721787291740646039&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 4,
+                "title": "Diagnostic performance of artificial intelligence in multiple sclerosis: a systematic review and meta-analysis",
+                "result_id": "Nyje81_gfQgJ",
+                "link": "https://link.springer.com/article/10.1007/s10072-022-06460-7",
+                "snippet": "\u2026 , image processing methods based on object classification using machine learning (ML) learning techniques in AI are used to apply automatic segmentation on MRI images [8]. A high \u2026",
+                "publication_info": {
+                    "summary": "F Nabizadeh, E Ramezannezhad, A Kargar\u2026 - Neurological \u2026, 2023 - Springer",
+                    "authors": [
+                        {
+                            "name": "F Nabizadeh",
+                            "link": "https://scholar.google.com/citations?user=NTjYnvoAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=NTjYnvoAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "NTjYnvoAAAAJ"
+                        }
+                    ]
+                },
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Nyje81_gfQgJ",
+                    "cited_by": {
+                        "total": 2,
+                        "link": "https://scholar.google.com/scholar?cites=611891827110193207&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "611891827110193207",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=611891827110193207&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:Nyje81_gfQgJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3ANyje81_gfQgJ%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 3,
+                        "link": "https://scholar.google.com/scholar?cluster=611891827110193207&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "611891827110193207",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=611891827110193207&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 5,
+                "title": "Deep learning neural networks for medical image segmentation of brain tumours for diagnosis: a recent review and taxonomy",
+                "result_id": "wXYyen9TYEwJ",
+                "link": "https://link.springer.com/article/10.1007/s12652-020-01998-w",
+                "snippet": "\u2026 based on deep learning neural networks. The DIV \u2026 segmentation systems based on deep neural networks. The results demonstrate that few components of medical image segmentation \u2026",
+                "publication_info": {
+                    "summary": "S Devunooru, A Alsadoon, PWC Chandana\u2026 - Journal of Ambient \u2026, 2021 - Springer",
+                    "authors": [
+                        {
+                            "name": "A Alsadoon",
+                            "link": "https://scholar.google.com/citations?user=ouKzqC8AAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ouKzqC8AAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "ouKzqC8AAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "researchgate.net",
+                        "file_format": "PDF",
+                        "link": "https://www.researchgate.net/profile/Abeer-Alsadoon-2/publication/341190661_Deep_learning_neural_networks_for_medical_image_segmentation_of_brain_tumours_for_diagnosis_a_recent_review_and_taxonomy/links/637dfa071766b34c544bfc80/Deep-learning-neural-networks-for-medical-image-segmentation-of-brain-tumours-for-diagnosis-a-recent-review-and-taxonomy.pdf"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=wXYyen9TYEwJ",
+                    "cited_by": {
+                        "total": 51,
+                        "link": "https://scholar.google.com/scholar?cites=5503490551622825665&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "5503490551622825665",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=5503490551622825665&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:wXYyen9TYEwJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AwXYyen9TYEwJ%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 4,
+                        "link": "https://scholar.google.com/scholar?cluster=5503490551622825665&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "5503490551622825665",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=5503490551622825665&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 6,
+                "title": "Commercial volumetric MRI reporting tools in multiple sclerosis: a systematic review of the evidence",
+                "result_id": "k017uFmShwkJ",
+                "type": "Html",
+                "link": "https://link.springer.com/article/10.1007/s00234-022-03074-w",
+                "snippet": "\u2026 We identified 10 companies, which provide MS lesion and brain segmentation and volume \u2026 Eight out of ten companies used either automatic lesion filling or deep learning approaches, \u2026",
+                "publication_info": {
+                    "summary": "Z Mendelsohn, HG Pemberton, J Gray, O Goodkin\u2026 - Neuroradiology, 2023 - Springer",
+                    "authors": [
+                        {
+                            "name": "HG Pemberton",
+                            "link": "https://scholar.google.com/citations?user=F4U4hGkAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=F4U4hGkAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "F4U4hGkAAAAJ"
+                        },
+                        {
+                            "name": "O Goodkin",
+                            "link": "https://scholar.google.com/citations?user=9t8IJTgAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=9t8IJTgAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "9t8IJTgAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "springer.com",
+                        "file_format": "HTML",
+                        "link": "https://link.springer.com/article/10.1007/s00234-022-03074-w"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=k017uFmShwkJ",
+                    "html_version": "https://link.springer.com/article/10.1007/s00234-022-03074-w",
+                    "cited_by": {
+                        "total": 14,
+                        "link": "https://scholar.google.com/scholar?cites=686678382242123155&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "686678382242123155",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=686678382242123155&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:k017uFmShwkJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3Ak017uFmShwkJ%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 8,
+                        "link": "https://scholar.google.com/scholar?cluster=686678382242123155&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "686678382242123155",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=686678382242123155&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 7,
+                "title": "Present and future of the diagnostic work-up of multiple sclerosis: the imaging perspective",
+                "result_id": "UywC-e6EaMsJ",
+                "type": "Html",
+                "link": "https://link.springer.com/article/10.1007/s00415-022-11488-y",
+                "snippet": "\u2026 Cortical lesion identification and segmentation, however, strongly rely on \u2026 Using CNN, a model of deep-learning (DL) tool able to \u2026 Machine learning (ML) algorithms, used to learn from \u2026",
+                "publication_info": {
+                    "summary": "M Filippi, P Preziosa, DL Arnold, F Barkhof\u2026 - Journal of \u2026, 2023 - Springer",
+                    "authors": [
+                        {
+                            "name": "P Preziosa",
+                            "link": "https://scholar.google.com/citations?user=I3ytK1QAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=I3ytK1QAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "I3ytK1QAAAAJ"
+                        },
+                        {
+                            "name": "DL Arnold",
+                            "link": "https://scholar.google.com/citations?user=77JHlSkAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=77JHlSkAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "77JHlSkAAAAJ"
+                        },
+                        {
+                            "name": "F Barkhof",
+                            "link": "https://scholar.google.com/citations?user=rjEG-7EAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=rjEG-7EAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "rjEG-7EAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "springer.com",
+                        "file_format": "HTML",
+                        "link": "https://link.springer.com/article/10.1007/s00415-022-11488-y"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=UywC-e6EaMsJ",
+                    "html_version": "https://link.springer.com/article/10.1007/s00415-022-11488-y",
+                    "cited_by": {
+                        "total": 14,
+                        "link": "https://scholar.google.com/scholar?cites=14657111149192031315&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "14657111149192031315",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=14657111149192031315&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:UywC-e6EaMsJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AUywC-e6EaMsJ%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 16,
+                        "link": "https://scholar.google.com/scholar?cluster=14657111149192031315&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "14657111149192031315",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=14657111149192031315&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 8,
+                "title": "Machine learning use for prognostic purposes in multiple sclerosis",
+                "result_id": "udU1UkobNDMJ",
+                "link": "https://www.mdpi.com/2075-1729/11/2/122",
+                "snippet": "\u2026 Inspection of the results of a PubMed search with keywords \u201cmultiple sclerosis\u201d AND (\u201cmachine learning\u201d OR \u201cartificial intelligence\u201d OR \u201cneural network\u201d) retrieved 286 studies, of which \u2026",
+                "publication_info": {
+                    "summary": "R Seccia, S Romano, M Salvetti, A Crisanti, L Palagi\u2026 - Life, 2021 - mdpi.com",
+                    "authors": [
+                        {
+                            "name": "R Seccia",
+                            "link": "https://scholar.google.com/citations?user=OhSYyQ8AAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=OhSYyQ8AAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "OhSYyQ8AAAAJ"
+                        },
+                        {
+                            "name": "S Romano",
+                            "link": "https://scholar.google.com/citations?user=71dsKNYAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=71dsKNYAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "71dsKNYAAAAJ"
+                        },
+                        {
+                            "name": "A Crisanti",
+                            "link": "https://scholar.google.com/citations?user=xFXMCnkAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=xFXMCnkAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "xFXMCnkAAAAJ"
+                        },
+                        {
+                            "name": "L Palagi",
+                            "link": "https://scholar.google.com/citations?user=UTT6aIIAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=UTT6aIIAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "UTT6aIIAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "mdpi.com",
+                        "file_format": "PDF",
+                        "link": "https://www.mdpi.com/2075-1729/11/2/122/pdf"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=udU1UkobNDMJ",
+                    "cited_by": {
+                        "total": 31,
+                        "link": "https://scholar.google.com/scholar?cites=3689604000744068537&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "3689604000744068537",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=3689604000744068537&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:udU1UkobNDMJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AudU1UkobNDMJ%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 10,
+                        "link": "https://scholar.google.com/scholar?cluster=3689604000744068537&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "3689604000744068537",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=3689604000744068537&engine=google_scholar&hl=en&num=20"
+                    },
+                    "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:udU1UkobNDMJ:scholar.google.com/+multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1"
+                }
+            },
+            {
+                "position": 9,
+                "title": "A review of deep learning-based multiple-lesion recognition from medical images: classification, detection and segmentation",
+                "result_id": "71WvjzOy-QcJ",
+                "link": "https://www.sciencedirect.com/science/article/pii/S0010482523001919",
+                "snippet": "\u2026 [12] segmented multiple sclerosis lesion using broader deep-\u2026 on multiple diseases. Consequently, the focus of this review will be on the use of deep learning to recognize multiple \u2026",
+                "publication_info": {
+                    "summary": "H Jiang, Z Diao, T Shi, Y Zhou, F Wang, W Hu\u2026 - Computers in Biology \u2026, 2023 - Elsevier"
+                },
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=71WvjzOy-QcJ",
+                    "cited_by": {
+                        "total": 41,
+                        "link": "https://scholar.google.com/scholar?cites=574686361990157807&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "574686361990157807",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=574686361990157807&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:71WvjzOy-QcJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3A71WvjzOy-QcJ%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 6,
+                        "link": "https://scholar.google.com/scholar?cluster=574686361990157807&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "574686361990157807",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=574686361990157807&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 10,
+                "title": "Current trends on deep learning models for brain tumor segmentation and detection\u2013a review",
+                "result_id": "1hZnHQ5SMloJ",
+                "link": "https://ieeexplore.ieee.org/abstract/document/8862209/",
+                "snippet": "\u2026 at multiple scales simultaneously. Finally, this article implying about present status on segmentation and Detection of tumor-based image processing through deep learning models. \u2026",
+                "publication_info": {
+                    "summary": "S Somasundaram, R Gobinath - \u2026 on machine learning, big data \u2026, 2019 - ieeexplore.ieee.org",
+                    "authors": [
+                        {
+                            "name": "S Somasundaram",
+                            "link": "https://scholar.google.com/citations?user=t3Hcb2AAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=t3Hcb2AAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "t3Hcb2AAAAAJ"
+                        },
+                        {
+                            "name": "R Gobinath",
+                            "link": "https://scholar.google.com/citations?user=G0dcY08AAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=G0dcY08AAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "G0dcY08AAAAJ"
+                        }
+                    ]
+                },
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=1hZnHQ5SMloJ",
+                    "cited_by": {
+                        "total": 48,
+                        "link": "https://scholar.google.com/scholar?cites=6499347432825362134&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "6499347432825362134",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=6499347432825362134&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:1hZnHQ5SMloJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3A1hZnHQ5SMloJ%3Ascholar.google.com%2F&start=21"
+                }
+            },
+            {
+                "position": 11,
+                "title": "The applications of machine learning algorithms in multiple sclerosis: A systematic review",
+                "result_id": "_A3mY1RW0W0J",
+                "link": "https://acta.tums.ac.ir/index.php/acta/article/view/9604",
+                "snippet": "\u2026 show its general applicability to the problem of lesion segmentation by evaluating our approach on synthetic and clinical image data and comparing it to state-of-the-art methods. \u2026",
+                "publication_info": {
+                    "summary": "A Garavand, M Samadbeik, N Aslani - Acta Medica Iranica, 2022 - acta.tums.ac.ir",
+                    "authors": [
+                        {
+                            "name": "A Garavand",
+                            "link": "https://scholar.google.com/citations?user=Y5-XBAIAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Y5-XBAIAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "Y5-XBAIAAAAJ"
+                        },
+                        {
+                            "name": "M Samadbeik",
+                            "link": "https://scholar.google.com/citations?user=JqSoHBgAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=JqSoHBgAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "JqSoHBgAAAAJ"
+                        },
+                        {
+                            "name": "N Aslani",
+                            "link": "https://scholar.google.com/citations?user=1pD4V34AAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=1pD4V34AAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "1pD4V34AAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "tums.ac.ir",
+                        "file_format": "PDF",
+                        "link": "https://acta.tums.ac.ir/index.php/acta/article/download/9604/5647"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=_A3mY1RW0W0J",
+                    "cited_by": {
+                        "total": 2,
+                        "link": "https://scholar.google.com/scholar?cites=7913200940719934972&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "7913200940719934972",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=7913200940719934972&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:_A3mY1RW0W0J:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3A_A3mY1RW0W0J%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 8,
+                        "link": "https://scholar.google.com/scholar?cluster=7913200940719934972&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "7913200940719934972",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=7913200940719934972&engine=google_scholar&hl=en&num=20"
+                    },
+                    "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:_A3mY1RW0W0J:scholar.google.com/+multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1"
+                }
+            },
+            {
+                "position": 12,
+                "title": "New OFSEP recommendations for MRI assessment of multiple sclerosis patients: special consideration for gadolinium deposition and frequent acquisitions",
+                "result_id": "UWB0PGxzI2wJ",
+                "link": "https://www.sciencedirect.com/science/article/pii/S015098612030095X",
+                "snippet": "\u2026 Preliminary machine learning studies have shown the benefits of \u2026 by segmenting lesions or detect active lesions (MICCAI and ISBI challenges [34], [35]) or by automatically segmenting \u2026",
+                "publication_info": {
+                    "summary": "JC Brisset, S Kremer, S Hannoun, F Bonneville\u2026 - Journal of \u2026, 2020 - Elsevier",
+                    "authors": [
+                        {
+                            "name": "JC Brisset",
+                            "link": "https://scholar.google.com/citations?user=h-Vce6EAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=h-Vce6EAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "h-Vce6EAAAAJ"
+                        },
+                        {
+                            "name": "S Hannoun",
+                            "link": "https://scholar.google.com/citations?user=s3rv4wkAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=s3rv4wkAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "s3rv4wkAAAAJ"
+                        },
+                        {
+                            "name": "F Bonneville",
+                            "link": "https://scholar.google.com/citations?user=GZ13QOsAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=GZ13QOsAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "GZ13QOsAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "sciencedirect.com",
+                        "file_format": "PDF",
+                        "link": "https://www.sciencedirect.com/science/article/am/pii/S015098612030095X"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=UWB0PGxzI2wJ",
+                    "cited_by": {
+                        "total": 54,
+                        "link": "https://scholar.google.com/scholar?cites=7792198688989012049&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "7792198688989012049",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=7792198688989012049&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:UWB0PGxzI2wJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AUWB0PGxzI2wJ%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 19,
+                        "link": "https://scholar.google.com/scholar?cluster=7792198688989012049&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "7792198688989012049",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=7792198688989012049&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 13,
+                "title": "A Systematic Review on Multiple Sclerosis",
+                "result_id": "OI2GelaN5O8J",
+                "link": "https://link.springer.com/chapter/10.1007/978-981-99-2746-3_67",
+                "snippet": "\u2026 segmentation from MR images is performed using a deep \u2026 In this paper, a comprehensive study on multiple sclerosis is \u2026 recognition, machine learning, and deep learning techniques. \u2026",
+                "publication_info": {
+                    "summary": "K Goura, A Harsoor - International Conference on Information and \u2026, 2022 - Springer"
+                },
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=OI2GelaN5O8J"
+                }
+            },
+            {
+                "position": 14,
+                "title": "Artificial intelligence and deep learning in neuroradiology: exploring the new frontier",
+                "result_id": "hdckqRxoNVYJ",
+                "link": "https://journals.sagepub.com/doi/abs/10.1177/0846537120954293",
+                "snippet": "\u2026 Magnetic resonance imaging plays a crucial role in the management of multiple sclerosis (MS). \u2026 semantic segmentation using deep learning. The model can detect and outline multiple \u2026",
+                "publication_info": {
+                    "summary": "H Kaka, E Zhang, N Khan - Canadian Association of \u2026, 2021 - journals.sagepub.com",
+                    "authors": [
+                        {
+                            "name": "H Kaka",
+                            "link": "https://scholar.google.com/citations?user=iSr63LgAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=iSr63LgAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "iSr63LgAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "sagepub.com",
+                        "file_format": "HTML",
+                        "link": "https://journals.sagepub.com/doi/full/10.1177/0846537120954293"
+                    },
+                    {
+                        "title": "Full View",
+                        "link": "https://scholar.google.com/scholar?output=instlink&q=info:hdckqRxoNVYJ:scholar.google.com/&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1&scillfp=2986931416501248299&oi=lle"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=hdckqRxoNVYJ",
+                    "html_version": "https://journals.sagepub.com/doi/full/10.1177/0846537120954293",
+                    "cited_by": {
+                        "total": 45,
+                        "link": "https://scholar.google.com/scholar?cites=6211985733333604229&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "6211985733333604229",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=6211985733333604229&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:hdckqRxoNVYJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AhdckqRxoNVYJ%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 4,
+                        "link": "https://scholar.google.com/scholar?cluster=6211985733333604229&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "6211985733333604229",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=6211985733333604229&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 15,
+                "title": "Central vein sign for multiple sclerosis: A systematic review and meta-analysis",
+                "result_id": "2YXzQ1Z4VpAJ",
+                "link": "https://www.sciencedirect.com/science/article/pii/S0009926020300477",
+                "snippet": "\u2026 The histopathological relationship between multiple sclerosis (\u2026 American Imaging in Multiple Sclerosis Cooperative criteria, 2 \u2026 The segmentation process used the Method for Inter-Modal \u2026",
+                "publication_info": {
+                    "summary": "A Bhandari, H Xiang, J Lechner-Scott, M Agzarian - Clinical Radiology, 2020 - Elsevier",
+                    "authors": [
+                        {
+                            "name": "A Bhandari",
+                            "link": "https://scholar.google.com/citations?user=6zhK9h4AAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=6zhK9h4AAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "6zhK9h4AAAAJ"
+                        },
+                        {
+                            "name": "J Lechner-Scott",
+                            "link": "https://scholar.google.com/citations?user=BWXdbGkAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BWXdbGkAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "BWXdbGkAAAAJ"
+                        }
+                    ]
+                },
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=2YXzQ1Z4VpAJ",
+                    "cited_by": {
+                        "total": 14,
+                        "link": "https://scholar.google.com/scholar?cites=10400632701361292761&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "10400632701361292761",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=10400632701361292761&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:2YXzQ1Z4VpAJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3A2YXzQ1Z4VpAJ%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 6,
+                        "link": "https://scholar.google.com/scholar?cluster=10400632701361292761&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "10400632701361292761",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=10400632701361292761&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 16,
+                "title": "Applications of a deep learning method for anti-aliasing and super-resolution in MRI",
+                "result_id": "g8dJ0ag5m-gJ",
+                "link": "https://www.sciencedirect.com/science/article/pii/S0730725X18306507",
+                "snippet": "\u2026 A deep learning approach called SMORE that carries out \u2026 in FLAIR images acquired from multiple sclerosis patients. Then it is \u2026 how SMORE can improve segmentation accuracy, a result \u2026",
+                "publication_info": {
+                    "summary": "C Zhao, M Shao, A Carass, H Li, BE Dewey\u2026 - Magnetic resonance \u2026, 2019 - Elsevier",
+                    "authors": [
+                        {
+                            "name": "C Zhao",
+                            "link": "https://scholar.google.com/citations?user=CdzhxtYAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=CdzhxtYAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "CdzhxtYAAAAJ"
+                        },
+                        {
+                            "name": "M Shao",
+                            "link": "https://scholar.google.com/citations?user=IQbKt6QAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=IQbKt6QAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "IQbKt6QAAAAJ"
+                        },
+                        {
+                            "name": "A Carass",
+                            "link": "https://scholar.google.com/citations?user=8kZ64yEAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=8kZ64yEAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "8kZ64yEAAAAJ"
+                        },
+                        {
+                            "name": "H Li",
+                            "link": "https://scholar.google.com/citations?user=8l9AekQAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=8l9AekQAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "8l9AekQAAAAJ"
+                        },
+                        {
+                            "name": "BE Dewey",
+                            "link": "https://scholar.google.com/citations?user=0ACCidcAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0ACCidcAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "0ACCidcAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "nih.gov",
+                        "file_format": "HTML",
+                        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7094770/"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=g8dJ0ag5m-gJ",
+                    "html_version": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7094770/",
+                    "cited_by": {
+                        "total": 76,
+                        "link": "https://scholar.google.com/scholar?cites=16761053835417995139&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "16761053835417995139",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=16761053835417995139&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:g8dJ0ag5m-gJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3Ag8dJ0ag5m-gJ%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 5,
+                        "link": "https://scholar.google.com/scholar?cluster=16761053835417995139&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "16761053835417995139",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=16761053835417995139&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 17,
+                "title": "Application of artificial intelligence in magnetic resonance imaging to reduce gadolinium accumulation in patients with multiple sclerosis: a review",
+                "result_id": "MvSSBnnTnP0J",
+                "type": "Pdf",
+                "link": "https://www.researchgate.net/profile/Vijay-Athavale/publication/356381317_Application_of_Artificial_Intelligence_in_Magnetic_Resonance_Imaging_to_reduce_Gadolinium_accumulation_in_patients_with_multiple_sclerosis_A_Review/links/61f90d4511a1090a79c79ce5/Application-of-Artificial-Intelligence-in-Magnetic-Resonance-Imaging-to-reduce-Gadolinium-accumulation-in-patients-with-multiple-sclerosis-A-Review.pdf",
+                "snippet": "\u2026 To implement this deep learning algorithm segmenting the brain based on different substances\u2026 that a training group of 10 images is sufficient to get an excellent segmentation of the grey \u2026",
+                "publication_info": {
+                    "summary": "VA Athavale - Science Progress and Research, 2021 - researchgate.net",
+                    "authors": [
+                        {
+                            "name": "VA Athavale",
+                            "link": "https://scholar.google.com/citations?user=lx_lA2AAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=lx_lA2AAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "lx_lA2AAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "researchgate.net",
+                        "file_format": "PDF",
+                        "link": "https://www.researchgate.net/profile/Vijay-Athavale/publication/356381317_Application_of_Artificial_Intelligence_in_Magnetic_Resonance_Imaging_to_reduce_Gadolinium_accumulation_in_patients_with_multiple_sclerosis_A_Review/links/61f90d4511a1090a79c79ce5/Application-of-Artificial-Intelligence-in-Magnetic-Resonance-Imaging-to-reduce-Gadolinium-accumulation-in-patients-with-multiple-sclerosis-A-Review.pdf"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=MvSSBnnTnP0J",
+                    "cited_by": {
+                        "total": 6,
+                        "link": "https://scholar.google.com/scholar?cites=18274713904717427762&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "18274713904717427762",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=18274713904717427762&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:MvSSBnnTnP0J:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AMvSSBnnTnP0J%3Ascholar.google.com%2F&start=21",
+                    "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:MvSSBnnTnP0J:scholar.google.com/+multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1"
+                }
+            },
+            {
+                "position": 18,
+                "title": "A review of publicly available automatic brain segmentation methodologies, machine learning models, recent advancements, and their comparison",
+                "result_id": "AqTKHUv5bdAJ",
+                "link": "https://journals.sagepub.com/doi/abs/10.1177/0972753121990175",
+                "snippet": "\u2026 The purpose of the study is to understand the current and emerging state of automatic segmentation tools, their comparison, machine learning models, their reliability, and shortcomings \u2026",
+                "publication_info": {
+                    "summary": "MK Singh, KK Singh - Annals of Neurosciences, 2021 - journals.sagepub.com",
+                    "authors": [
+                        {
+                            "name": "MK Singh",
+                            "link": "https://scholar.google.com/citations?user=Gpu36rcAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Gpu36rcAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "Gpu36rcAAAAJ"
+                        },
+                        {
+                            "name": "KK Singh",
+                            "link": "https://scholar.google.com/citations?user=6SofngYAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=6SofngYAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "6SofngYAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "sagepub.com",
+                        "file_format": "HTML",
+                        "link": "https://journals.sagepub.com/doi/full/10.1177/0972753121990175"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=AqTKHUv5bdAJ",
+                    "html_version": "https://journals.sagepub.com/doi/full/10.1177/0972753121990175",
+                    "cited_by": {
+                        "total": 38,
+                        "link": "https://scholar.google.com/scholar?cites=15018934433368155138&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+                        "cites_id": "15018934433368155138",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=15018934433368155138&engine=google_scholar&hl=en&num=20"
+                    },
+                    "related_pages_link": "https://scholar.google.com/scholar?q=related:AqTKHUv5bdAJ:scholar.google.com/&scioq=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                    "serpapi_related_pages_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=related%3AAqTKHUv5bdAJ%3Ascholar.google.com%2F&start=21",
+                    "versions": {
+                        "total": 8,
+                        "link": "https://scholar.google.com/scholar?cluster=15018934433368155138&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "15018934433368155138",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=15018934433368155138&engine=google_scholar&hl=en&num=20"
+                    }
+                }
+            },
+            {
+                "position": 19,
+                "title": "Artificial Intelligence and Multiple Sclerosis: Up-to-Date Review",
+                "result_id": "gcK5EnT_aegJ",
+                "type": "Pdf",
+                "link": "https://www.cureus.com/articles/183314-artificial-intelligence-and-multiple-sclerosis-up-to-date-review.pdf",
+                "snippet": "\u2026 Studies have demonstrated the efficacy of AI in automating lesion segmentation and \u2026 Another study succeeds with a machine learning workflow to build MS stage-specific classifiers \u2026",
+                "publication_info": {
+                    "summary": "Y Naji, M Mahdaoui, R Klevor, N Kissani, K Raymond - Cureus, 2023 - cureus.com",
+                    "authors": [
+                        {
+                            "name": "Y Naji",
+                            "link": "https://scholar.google.com/citations?user=7rw0RbcAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=7rw0RbcAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "7rw0RbcAAAAJ"
+                        },
+                        {
+                            "name": "M Mahdaoui",
+                            "link": "https://scholar.google.com/citations?user=yb8lQ2cAAAAJ&hl=en&num=20&oi=sra",
+                            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=yb8lQ2cAAAAJ&engine=google_scholar_author&hl=en",
+                            "author_id": "yb8lQ2cAAAAJ"
+                        }
+                    ]
+                },
+                "resources": [
+                    {
+                        "title": "cureus.com",
+                        "file_format": "PDF",
+                        "link": "https://www.cureus.com/articles/183314-artificial-intelligence-and-multiple-sclerosis-up-to-date-review.pdf"
+                    }
+                ],
+                "inline_links": {
+                    "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=gcK5EnT_aegJ",
+                    "versions": {
+                        "total": 9,
+                        "link": "https://scholar.google.com/scholar?cluster=16747197563349353089&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                        "cluster_id": "16747197563349353089",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&cluster=16747197563349353089&engine=google_scholar&hl=en&num=20"
+                    },
+                    "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:gcK5EnT_aegJ:scholar.google.com/+multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1"
+                }
+            }
+        ],
+        "pagination": {
+            "current": 3,
+            "previous": "https://scholar.google.com/scholar?start=1&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+            "next": "https://scholar.google.com/scholar?start=41&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+            "other_pages": {
+                "1": "https://scholar.google.com/scholar?start=0&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "2": "https://scholar.google.com/scholar?start=20&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "4": "https://scholar.google.com/scholar?start=60&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "5": "https://scholar.google.com/scholar?start=80&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "6": "https://scholar.google.com/scholar?start=100&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "7": "https://scholar.google.com/scholar?start=120&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "8": "https://scholar.google.com/scholar?start=140&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "9": "https://scholar.google.com/scholar?start=160&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1",
+                "10": "https://scholar.google.com/scholar?start=180&q=multiple+sclerosis+segmentation+deep+learning&hl=en&num=20&as_sdt=0,5&as_ylo=2019&as_rr=1"
+            }
+        },
+        "serpapi_pagination": {
+            "current": 3,
+            "previous_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=1",
+            "previous": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=1",
+            "next_link": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=41",
+            "next": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=41",
+            "other_pages": {
+                "1": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=0",
+                "2": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=20",
+                "4": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=60",
+                "5": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=80",
+                "6": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=100",
+                "7": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=120",
+                "8": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=140",
+                "9": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=160",
+                "10": "https://serpapi.com/search.json?as_rr=1&as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&num=20&q=multiple+sclerosis+segmentation+deep+learning&start=180"
+            }
+        }
+    }
+]

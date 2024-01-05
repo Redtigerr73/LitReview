@@ -7,9 +7,11 @@ name = "pypi"
 requests = "*"
 pandas = "*"
 bs4 = "*"
-serpapi = "*"
+google-search-results = "*"
+jsonschema = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.11"
