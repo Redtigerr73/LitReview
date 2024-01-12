@@ -161,37 +161,55 @@ class ScholarScraper:
             wait()
         except HTTPError as err:
             print("!!! Error while fetching data !!!")
-            raise err
+            print(err)
         except Exception as err:
             print("!!! Error while extracting data !!!")
             raise err
 
-    def run(self, query, max_page=5):
+    def run(self, queries, max_page):
         """
-        Runs the scraper for a specific query.
+        Runs the scraper for a list of queries.
 
         Parameters:
-        query (str): The query to search for on Google Scholar.
+        queries (list): The list of queries to search for on Google Scholar.
+        max_page (int): The maximum number of pages to scrape for each query.
 
         Returns:
         None
         """
-        self.query = query
-        start_num  = 0
-        page_size  = 10
-   
-        for i in range(max_page):
-            print(f"Page {i}")
-            self.process_page(start_num)
-            start_num += page_size
-            print("")
+        for query in queries:
+            print(f"Processing query: {query}")
+            self.query = query
+            start_num  = 0
+            page_size  = 10
+
+            for i in range(max_page):
+                print(f"Page {i}")
+                self.process_page(start_num)
+                start_num += page_size
+                print("")
+            print("--------------------")
 
 
 if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser()
-    parser.add_argument(dest="query")
+    parser.add_argument(dest="queries", nargs='+')
+    parser.add_argument(
+        "-o", "--outfile",
+        dest="outfile",
+        default="gs_articles.csv"
+    )
+    parser.add_argument(
+        "-m", "--max-page",
+        dest="max_page",
+        default=5,
+        type=int
+    )
     args = parser.parse_args()
-    scraper = ScholarScraper(outfile="data/csv/gs_articles.csv")
-    scraper.run(query=args.query)
+    scraper = ScholarScraper(outfile=args.outfile)
+    scraper.run(
+        queries=args.queries,
+        max_page=args.max_page
+    )
