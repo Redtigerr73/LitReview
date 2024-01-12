@@ -1,5 +1,6 @@
 import time
 import csv
+import requests
 
 def wait():
     print("Waiting for 5 seconds...")
@@ -50,3 +51,19 @@ def append_to_csv(csv_path, data_list):
         writer.writerows(data_list)
 
     print(f"Appended data to file {csv_path}")
+
+def fetch_webpage(url):
+    """
+    Fetches the webpage at the specified URL.
+
+    Parameters:
+    url (str): The URL of the webpage to fetch.
+
+    Returns:
+    requests.Response: The response from the server.
+    """
+
+    print(f"URL: {url}")
+    response = requests.get(url, headers=requests.utils.default_headers())
+    response.raise_for_status()
+    return response

@@ -1,7 +1,7 @@
 import requests
 from requests.exceptions import HTTPError
 from bs4 import BeautifulSoup
-from helpers import append_to_csv, wait
+from helpers import append_to_csv, wait, fetch_webpage
 
 
 class ScholarScraper:
@@ -45,22 +45,6 @@ class ScholarScraper:
         processed_query = self.query.strip().lower().replace(" ", "+")
         return f"https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q={processed_query}&start={start_num}"
 
-    @staticmethod
-    def _fetch_webpage(url):
-        """
-        Fetches the webpage at the specified URL.
-
-        Parameters:
-        url (str): The URL of the webpage to fetch.
-
-        Returns:
-        requests.Response: The response from the server.
-        """
-
-        print(f"URL: {url}")
-        response = requests.get(url, headers=requests.utils.default_headers())
-        response.raise_for_status()
-        return response
 
     def _extract_article_info(self, job_element):
         """
@@ -151,7 +135,7 @@ class ScholarScraper:
 
         try:
             url          = self._set_up_url(start)
-            response     = self._fetch_webpage(url)
+            response     = fetch_webpage(url)
             article_list = self._extract_articles_from_html(response.text)
 
             for article in article_list:
