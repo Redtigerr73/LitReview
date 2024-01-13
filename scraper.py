@@ -7,7 +7,6 @@ from helpers import append_to_csv, wait, fetch_webpage
 class ScholarScraper:
     """
     A class used to scrape data from Google Scholar.
-
     ...
 
     Attributes
@@ -135,25 +134,26 @@ class ScholarScraper:
         """
 
         try:
-            url          = self._set_up_url(start)
-            response     = fetch_webpage(url)
+            url = self._set_up_url(start)
+            response = fetch_webpage(url)
             article_list = self._extract_articles_from_html(response.text)
 
             if len(article_list) == 0:
                 return
 
             for article in article_list:
-                if not article: return
+                if not article:
+                    return
                 article["query"] = self.query
 
             append_to_csv(self.outfile, article_list)
             wait()
         except HTTPError as err:
-            print("!!! Error while fetching data !!!")
-            print(err)
+            logging.error("Error while fetching data: %s", err)
+            raise
         except Exception as err:
-            print("!!! Error while extracting data !!!")
-            raise err
+            logging.error("Error while extracting data: %s", err)
+            raise
 
     def run(self, queries, max_page, start_num):
         """
@@ -168,17 +168,17 @@ class ScholarScraper:
         None
         """
         for query in queries:
-            print(f"Processing query: '{query}'. Start={start_num}, Max={max_page}")
+            logging.info(f"Processing query: '{query}'. Start={start_num}, Max={max_page}")
             self.query = query
             page_size  = 10
             current_start_num = start_num
 
             for i in range(max_page):
-                print(f"Page {i}")
+                logging.info(f"Page {i}")
                 self.process_page(current_start_num)
                 current_start_num += page_size
-                print("")
-            print("--------------------")
+                logging.info("")
+            logging.info("--------------------")
 
 
 if __name__ == "__main__":
