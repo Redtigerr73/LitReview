@@ -186,7 +186,7 @@ if __name__ == "__main__":
         default="gs_articles.csv"
     )
     parser.add_argument(
-        "-m", "--max-page",
+        "-m", "--maxPage",
         dest="max_page",
         default=5,
         type=int

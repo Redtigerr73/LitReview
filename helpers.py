@@ -1,10 +1,23 @@
 import time
 import csv
+import random
 import requests
 
-def wait():
-    print("Waiting for 5 seconds...")
-    time.sleep(5)
+def wait(seconds=None):
+    """
+    Pauses the execution of the program for a specified number of seconds.
+    If no number is specified, the pause will last for a random number of seconds between 1 and 5.
+
+    Parameters:
+    seconds (int, optional): The number of seconds to pause. Defaults to a random number between 1 and 5.
+
+    Returns:
+    None
+    """
+    if not seconds:
+        seconds = random.randint(1, 5)
+    print(f"Waiting for {seconds} seconds...")
+    time.sleep(seconds)
 
 def append_to_csv(csv_path, data_list):
     """
