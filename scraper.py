@@ -1,4 +1,4 @@
-import requests
+import logging
 from requests.exceptions import HTTPError
 from bs4 import BeautifulSoup
 from helpers import append_to_csv, wait, fetch_webpage
@@ -110,15 +110,16 @@ class ScholarScraper:
 
         article_list = []
         soup = BeautifulSoup(html_content, 'html.parser')
-        job_elements = soup.find("div", id="gs_res_ccl_mid")\
-                        .find_all("div", class_="gs_ri")
-        
-        for job_element in job_elements:
-            try:
-                article_info = self._extract_article_info(job_element)
-                article_list.append(article_info)
-            except: # skip the current article if there's an error
-                continue
+        divs = soup.find("div", id="gs_res_ccl_mid")
+
+        if divs:
+            job_elements = divs.find_all("div", class_="gs_ri")
+            for job_element in job_elements:
+                try:
+                    article_info = self._extract_article_info(job_element)
+                    article_list.append(article_info)
+                except: # skip the current article if there's an error
+                    continue
 
         return article_list
 
@@ -138,7 +139,11 @@ class ScholarScraper:
             response     = fetch_webpage(url)
             article_list = self._extract_articles_from_html(response.text)
 
+            if len(article_list) == 0:
+                return
+
             for article in article_list:
+                if not article: return
                 article["query"] = self.query
 
             append_to_csv(self.outfile, article_list)
@@ -150,27 +155,28 @@ class ScholarScraper:
             print("!!! Error while extracting data !!!")
             raise err
 
-    def run(self, queries, max_page):
+    def run(self, queries, max_page, start_num):
         """
         Runs the scraper for a list of queries.
 
         Parameters:
         queries (list): The list of queries to search for on Google Scholar.
         max_page (int): The maximum number of pages to scrape for each query.
+        start_num (int): The starting page number for each query.
 
         Returns:
         None
         """
         for query in queries:
-            print(f"Processing query: {query}")
+            print(f"Processing query: '{query}'. Start={start_num}, Max={max_page}")
             self.query = query
-            start_num  = 0
             page_size  = 10
+            current_start_num = start_num
 
             for i in range(max_page):
                 print(f"Page {i}")
-                self.process_page(start_num)
-                start_num += page_size
+                self.process_page(current_start_num)
+                current_start_num += page_size
                 print("")
             print("--------------------")
 
@@ -191,9 +197,16 @@ if __name__ == "__main__":
         default=5,
         type=int
     )
+    parser.add_argument(
+        "-s", "--startNum",
+        dest="start_num",
+        default=0,
+        type=int
+    )
     args = parser.parse_args()
     scraper = ScholarScraper(outfile=args.outfile)
     scraper.run(
         queries=args.queries,
-        max_page=args.max_page
+        max_page=args.max_page,
+        start_num=args.start_num
     )
