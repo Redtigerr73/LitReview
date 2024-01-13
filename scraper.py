@@ -3,6 +3,9 @@ from requests.exceptions import HTTPError
 from bs4 import BeautifulSoup
 from helpers import append_to_csv, wait, fetch_webpage
 
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logging.basicConfig(level=logging.ERROR, format='%(levelname)s: %(message)s')
+
 
 class ScholarScraper:
     """
