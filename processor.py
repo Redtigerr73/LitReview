@@ -5,7 +5,7 @@ class Processor:
     def remove_duplicates(self, csv_path):
         df = pd.read_csv(csv_path)
         n_rows = df.shape[0]
-        df = df.drop_duplicates(subset=['title', 'url'], keep=False)
+        df = df.drop_duplicates(subset=['url'], keep=False)
         df.to_csv(csv_path, index=False)
         n_removed = n_rows - df.shape[0]
         print(f"Removed {n_removed} duplicate articles from {csv_path}")
