@@ -92,11 +92,11 @@ class ScholarScraper:
         return {
             "title"       : title,
             "url"         : url,
+            "year"        : year,
+            "cited_by"    : n_cit,
+            "publisher"   : publisher,
             "first_author": first_author,
             "authors"     : authors_str,
-            "year"        : year,
-            "publisher"   : publisher,
-            "cited_by"    : n_cit,
         }
 
     def _extract_articles_from_html(self, html_content):
@@ -180,8 +180,8 @@ class ScholarScraper:
                 logging.info(f"Page {i}")
                 self.process_page(current_start_num)
                 current_start_num += page_size
-                logging.info("")
-            logging.info("--------------------")
+                print("")
+            print("--------------------")
 
 
 if __name__ == "__main__":

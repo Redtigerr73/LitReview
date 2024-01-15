@@ -2,15 +2,17 @@
 
 # Define the list of queries
 queries=(
-    # "multiple sclerosis segmentation deep learning"
-    # "multiple sclerosis segmentation U-net"
-    # "multiple sclerosis segmentation GAN"
-    # "multiple sclerosis segmentation CNN"
-    # "multiple sclerosis segmentation nnU-net"
-    # "deep learning models for multiple sclerosis segmentation"
-    "multiple sclerosis MRI segmentation"
-    "small brain tissue segmentation deep learning"
-    "brain leisions segmentation deep learning"
+    "multiple sclerosis segmentation deep learning"
+    "multiple sclerosis segmentation U-net"
+    "multiple sclerosis segmentation GAN"
+    "multiple sclerosis segmentation CNN"
+    "multiple sclerosis segmentation nnU-net"
+    "deep learning models for multiple sclerosis segmentation"
+    # "multiple sclerosis MRI segmentation"
+    # "small brain tissue segmentation deep learning"
+    # "brain leisions segmentation deep learning"
+    # "multiple sclerosis segmentation dataset"
+    # "segmentation loss function"
 )
 # queries=(
 #     "multiple sclerosis"
@@ -21,7 +23,7 @@ queries=(
 #     "multiple sclerosis cost Russia"
 #     "multiple sclerosis statistics"
 # )
-max_page=5
+max_page=7
 start_num=0
 outfile="data/csv/gs_ms_seg.csv"
 
