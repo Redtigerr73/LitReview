@@ -158,7 +158,7 @@ class ScholarScraper:
             logging.error("Error while extracting data: %s", err)
             raise
 
-    def run(self, queries, max_page, start_num):
+    def run(self, queries, max_page, start_num, progress_callback=None):
         """
         Runs the scraper for a list of queries.
 
@@ -166,6 +166,7 @@ class ScholarScraper:
         queries (list): The list of queries to search for on Google Scholar.
         max_page (int): The maximum number of pages to scrape for each query.
         start_num (int): The starting page number for each query.
+        progress_callback (function): Optional callback function to report progress
 
         Returns:
         None
@@ -180,6 +181,8 @@ class ScholarScraper:
                 logging.info(f"Page {i}")
                 self.process_page(current_start_num)
                 current_start_num += page_size
+                if progress_callback:
+                    progress_callback()
                 print("")
             print("--------------------")
 

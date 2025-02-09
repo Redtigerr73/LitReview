@@ -1,0 +1,18 @@
+# LitReview Configuration
+
+# Output directory for exported files
+output_dir: "data"
+
+# Maximum number of results allowed per search
+max_results: 1000
+
+# Default export format (excel or csv)
+export_format: "excel"
+
+# Rate limiting configuration
+rate_limit_delay: 3.0  # Initial delay between requests in seconds
+max_retries: 3        # Maximum number of retries per page
+use_proxy: false      # Enable proxy support (future feature)
+
+# Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+log_level: "INFO"
