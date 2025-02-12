@@ -1,90 +1,49 @@
-"""
-Export manager for handling data export in various formats
-"""
+"""Export manager for saving scraped results"""
 
 import os
-import re
+import json
+import logging
 from datetime import datetime
-from typing import List, Dict, Optional
-
+from typing import List, Dict
 import pandas as pd
+from tqdm import tqdm
 
-from ..utils.logger import setup_logger
-
-logger = setup_logger(__name__)
+logger = logging.getLogger(__name__)
 
 class ExportManager:
-    """
-    Handles exporting of scraped article data to various formats
-    """
+    """Handles exporting of scraped results to various formats"""
     
     def __init__(self, output_dir: str):
         self.output_dir = output_dir
         os.makedirs(output_dir, exist_ok=True)
         
-    def export(self, data: List[Dict], query: str, format: str = 'excel') -> str:
+    def export_results(self, results: List[Dict], query: str) -> str:
         """
-        Export data to the specified format
+        Export results to Excel format with progress bar
         
         Args:
-            data: List of article dictionaries
-            query: Original search query
-            format: Output format ('excel' or 'csv')
+            results: List of article dictionaries
+            query: Search query used
             
         Returns:
-            Path to the exported file
+            Path to the exported Excel file
         """
-        if not data:
-            logger.warning("No data to export")
-            return None
-            
-        # Create DataFrame
-        df = pd.DataFrame(data)
+        # Create timestamped filename
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        base_name = f"scholar_{query.replace(' ', '_')}_{timestamp}"
+        excel_path = os.path.join(self.output_dir, f"{base_name}.xlsx")
         
-        # Generate filename
-        filename = self._generate_filename(query, len(data))
+        # Convert to DataFrame with progress bar
+        with tqdm(total=len(results), desc="Export des résultats", 
+                 bar_format="{desc} |{bar}| {percentage:3.0f}%") as pbar:
+            df_list = []
+            for item in results:
+                df_list.append(pd.Series(item))
+                pbar.update(1)
+            df = pd.DataFrame(df_list)
         
-        # Export based on format
-        if format.lower() == 'excel':
-            return self._export_excel(df, filename)
-        elif format.lower() == 'csv':
-            return self._export_csv(df, filename)
-        else:
-            raise ValueError(f"Unsupported export format: {format}")
-            
-    def _generate_filename(self, query: str, result_count: int) -> str:
-        """
-        Generate filename based on query keywords and timestamp
-        
-        Args:
-            query: Search query string
-            result_count: Number of results found
-            
-        Returns:
-            Base filename without extension
-        """
-        # Clean and process query
-        # Remove special characters and extra spaces
-        clean_query = re.sub(r'[^\w\s-]', '', query)
-        # Replace multiple spaces with single underscore
-        clean_query = re.sub(r'\s+', '_', clean_query.strip().lower())
-        # Limit length while keeping whole words
-        if len(clean_query) > 50:
-            clean_query = '_'.join(clean_query[:50].split('_')[:-1])
-        
-        # Add timestamp
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        
-        # Create filename with query, result count and timestamp
-        return f"scholar_{clean_query}_{result_count}results_{timestamp}"
-        
-    def _export_excel(self, df: pd.DataFrame, base_name: str) -> str:
-        """
-        Export data to Excel format with formatting
-        """
-        filepath = os.path.join(self.output_dir, f"{base_name}.xlsx")
-        
-        with pd.ExcelWriter(filepath, engine='openpyxl') as writer:
+        # Export to Excel with formatting
+        with pd.ExcelWriter(excel_path, engine='openpyxl') as writer:
             df.to_excel(writer, index=False, sheet_name='Articles')
             
             # Auto-adjust columns width
@@ -95,15 +54,11 @@ class ExportManager:
                     len(str(col))
                 )
                 worksheet.column_dimensions[chr(65 + idx)].width = min(max_length + 2, 50)
-                
-        logger.info(f"Exported data to Excel: {filepath}")
-        return filepath
         
-    def _export_csv(self, df: pd.DataFrame, base_name: str) -> str:
-        """
-        Export data to CSV format
-        """
-        filepath = os.path.join(self.output_dir, f"{base_name}.csv")
-        df.to_csv(filepath, index=False)
-        logger.info(f"Exported data to CSV: {filepath}")
-        return filepath
+        # Also save as JSON for backup
+        json_path = os.path.join(self.output_dir, f"{base_name}.json")
+        with open(json_path, 'w', encoding='utf-8') as f:
+            json.dump(results, f, ensure_ascii=False, indent=2)
+            
+        logger.info(f"Exported {len(results)} results to {excel_path} and {json_path}")
+        return excel_path

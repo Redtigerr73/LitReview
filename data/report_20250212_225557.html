@@ -1,0 +1,234 @@
+
+        <!DOCTYPE html>
+        <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Rapport d'Analyse de Littérature Systématique</title>
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+            <style>
+                body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+                .container { max-width: 1200px; margin: auto; }
+                .section { margin-bottom: 30px; padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
+                .section h2 { color: #2c3e50; margin-bottom: 20px; }
+                .metric-card { background: #f8f9fa; padding: 15px; margin: 10px; border-radius: 5px; }
+                .metric-value { font-size: 24px; font-weight: bold; color: #2c3e50; }
+                .metric-label { font-size: 14px; color: #7f8c8d; }
+                table { width: 100%; margin-bottom: 1rem; }
+                th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+                th { background-color: #f8f9fa; }
+                .chart { margin: 20px 0; height: 400px; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1 class="text-center mb-4">Rapport d'Analyse de Littérature Systématique</h1>
+                
+                <!-- Informations de base -->
+                <div class="section">
+                    <h2>Informations de base</h2>
+                    <p><strong>Requête :</strong> REVERSE ENGINEERING</p>
+                    <p><strong>Date de génération :</strong> 20250212_225557</p>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="metric-card">
+                                <div class="metric-value">100</div>
+                                <div class="metric-label">Articles au total</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="metric-card">
+                                <div class="metric-value">1985 - 2021</div>
+                                <div class="metric-label">Période couverte</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="metric-card">
+                                <div class="metric-value">29612</div>
+                                <div class="metric-label">Citations totales</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="metric-card">
+                                <div class="metric-value">296.12</div>
+                                <div class="metric-label">Citations moyennes</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analyse temporelle -->
+                <div class="section">
+                    <h2>Analyse temporelle</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Distribution annuelle des publications</h4>
+                            <div id="yearly-papers-chart" class="chart"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Évolution des citations</h4>
+                            <div id="yearly-citations-chart" class="chart"></div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <h4>Taux de croissance</h4>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Année</th>
+                                    <th>Taux de croissance (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>2017</td><td>50.0%</td></tr><tr><td>2018</td><td>33.33%</td></tr><tr><td>2019</td><td>-75.0%</td></tr><tr><td>2020</td><td>0.0%</td></tr><tr><td>2021</td><td>100.0%</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <!-- Analyse des citations -->
+                <div class="section">
+                    <h2>Analyse des citations</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Distribution des citations</h4>
+                            <table class='table'><thead><tr><th>Plage</th><th>Nombre d'articles</th></tr></thead><tbody><tr><td>Non cité</td><td>0</td></tr><tr><td>1-10 citations</td><td>0</td></tr><tr><td>11-50 citations</td><td>9</td></tr><tr><td>51-100 citations</td><td>9</td></tr><tr><td>100+ citations</td><td>82</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Articles les plus cités</h4>
+                            <table class='table'><thead><tr><th>Titre</th><th>Citations</th></tr></thead><tbody><tr><td>Reverse engineering and design recovery: A taxonomy</td><td>3627</td></tr><tr><td>Reverse engineering of geometric models—an introduction</td><td>2121</td></tr><tr><td>Reverse engineering of biological complexity</td><td>1569</td></tr><tr><td>Automated reverse engineering of nonlinear dynamical systems</td><td>925</td></tr><tr><td>Reversing: secrets of reverse engineering</td><td>881</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analyse des auteurs -->
+                <div class="section">
+                    <h2>Analyse des auteurs</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Statistiques de collaboration</h4>
+                            <table class='table'><tbody><tr><td>Nombre total d'auteurs</td><td>227</td></tr><tr><td>Moyenne d'auteurs par article</td><td>2.54</td></tr><tr><td>Articles à auteur unique</td><td>17</td></tr><tr><td>Articles en collaboration</td><td>83</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Auteurs les plus prolifiques</h4>
+                            <table class='table'><thead><tr><th>Auteur</th><th>Articles</th><th>Citations</th></tr></thead><tbody><tr><td>HA Müller</td><td>3</td><td>1192</td></tr><tr><td>G Canfora</td><td>3</td><td>591</td></tr><tr><td>KL Wood</td><td>3</td><td>833</td></tr><tr><td>RR Martin</td><td>2</td><td>2450</td></tr><tr><td>V Raja</td><td>2</td><td>712</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analyse des sujets -->
+                <div class="section">
+                    <h2>Analyse des sujets</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Clusters thématiques</h4>
+                            <table class='table'><thead><tr><th>Cluster</th><th>Termes principaux</th><th>Taille</th></tr></thead><tbody><tr><td>0</td><td>reverse, problem, engineering, object, data</td><td>10</td></tr><tr><td>1</td><td>engineering, reverse, product, technique, methodology</td><td>11</td></tr><tr><td>2</td><td>reverse, engineering, approach, engineer, process</td><td>60</td></tr><tr><td>3</td><td>software, reverse, engineering, tool, difficult</td><td>14</td></tr><tr><td>4</td><td>reverseengineering, method, reuse, stereotype, focus</td><td>5</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Évolution des sujets</h4>
+                            <table class='table'><thead><tr><th>Année</th><th>Sujets dominants</th></tr></thead><tbody><tr><td>2015</td><td>engineering, reverse, Reverse</td></tr><tr><td>2016</td><td>engineering, reverse, mechanical</td></tr><tr><td>2017</td><td>reverse, engineering, approach</td></tr><tr><td>2018</td><td>Reverse, engineering, reverse</td></tr><tr><td>2019</td><td>show, enables, attack</td></tr><tr><td>2020</td><td>reverse, engineer, observational</td></tr><tr><td>2021</td><td>reverse, engineering, proposed</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analyse méthodologique -->
+                <div class="section">
+                    <h2>Analyse méthodologique</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Distribution des méthodologies</h4>
+                            <table class='table'><thead><tr><th>Méthodologie</th><th>Nombre d'articles</th></tr></thead><tbody><tr><td>theoretical</td><td>18</td></tr><tr><td>review</td><td>13</td></tr><tr><td>case_study</td><td>4</td></tr><tr><td>empirical</td><td>6</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Types d'études</h4>
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Études primaires</td>
+                                        <td>87</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Études secondaires</td>
+                                        <td>13</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Évaluation de la qualité -->
+                <div class="section">
+                    <h2>Évaluation de la qualité</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Métriques de qualité</h4>
+                            <table class='table'><tbody><tr><td>Articles avec résumé</td><td>100</td></tr><tr><td>Articles cités</td><td>100</td></tr><tr><td>Articles récents (≥ 2020)</td><td>3</td></tr><tr><td>Articles à fort impact</td><td>25</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Distribution de la qualité</h4>
+                            <table class='table'><tbody><tr><td>Qualité élevée</td><td>25</td></tr><tr><td>Qualité moyenne</td><td>51</td></tr><tr><td>Qualité faible</td><td>24</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Lacunes de recherche -->
+                <div class="section">
+                    <h2>Lacunes et directions futures</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Sujets émergents</h4>
+                            <table class='table'><thead><tr><th>Sujet</th><th>Score d'émergence</th></tr></thead><tbody><tr><td>reverse</td><td>1.129</td></tr><tr><td>engineering</td><td>0.685</td></tr><tr><td>conceptual</td><td>0.5</td></tr><tr><td>engineer</td><td>0.3892</td></tr><tr><td>proposed</td><td>0.3531</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Zones peu explorées</h4>
+                            <table class='table'><thead><tr><th>Domaine</th><th>Articles</th><th>Citations moyennes</th></tr></thead><tbody><tr><td>taxonomy</td><td>1</td><td>3627.0</td></tr><tr><td>adequately</td><td>1</td><td>3627.0</td></tr><tr><td>notion</td><td>1</td><td>3627.0</td></tr><tr><td>geometric</td><td>1</td><td>2121.0</td></tr><tr><td>identifying</td><td>1</td><td>2121.0</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Liste des articles -->
+                <div class="section">
+                    <h2>Liste des articles</h2>
+                    <table class='table'><thead><tr><th>Titre</th><th>Auteurs</th><th>Année</th><th>Citations</th><th>Venue</th></tr></thead><tbody><tr><td>Reverse engineering of geometric models—an introduction</td><td>T Varady, RR Martin, J Cox</td><td>1997</td><td>2121</td><td>N/A</td></tr><tr><td>On reverse engineering</td><td>MG Rekoff</td><td>1985</td><td>257</td><td>N/A</td></tr><tr><td>Review of reverse engineering approaches</td><td>S Motavalli</td><td>1999</td><td>192</td><td>N/A</td></tr><tr><td>Reverse engineering: an industrial perspective</td><td>V Raja, KJ Fernandes</td><td>2007</td><td>638</td><td>N/A</td></tr><tr><td>Reverse engineering of biological complexity</td><td>ME Csete, JC Doyle</td><td>2002</td><td>1569</td><td>N/A</td></tr><tr><td>Reverse engineering: a roadmap</td><td>HA Müller, JH Jahnke, DB Smith, MA Storey…</td><td>2000</td><td>429</td><td>N/A</td></tr><tr><td>Reversing: secrets of reverse engineering</td><td>E Eilam</td><td>2011</td><td>881</td><td>N/A</td></tr><tr><td>Reverse engineering is reverse forward engineering</td><td>ID Baxter, M Mehlich</td><td>1997</td><td>125</td><td>N/A</td></tr><tr><td>The law and economics of reverse engineering</td><td>P Samuelson, S Scotchmer</td><td>2001</td><td>839</td><td>N/A</td></tr><tr><td>New frontiers of reverse engineering</td><td>G Canfora, M Di Penta</td><td>2007</td><td>277</td><td>N/A</td></tr><tr><td>Reverse engineering and design recovery: A taxonomy</td><td>EJ Chikofsky, JH Cross</td><td>1990</td><td>3627</td><td>N/A</td></tr><tr><td>Reverse engineering modeling methods and tools: a survey</td><td>F Buonamici, M Carfagni, R Furferi…</td><td>2018</td><td>150</td><td>N/A</td></tr><tr><td>The state-of-the-art in IC reverse engineering</td><td>R Torrance, D James</td><td>2009</td><td>516</td><td>N/A</td></tr><tr><td>Deobfuscation: Reverse engineering obfuscated code</td><td>SK Udupa, SK Debray, M Madou</td><td>2005</td><td>304</td><td>N/A</td></tr><tr><td>Reverse engineering: Technology of reinvention</td><td>W Wang</td><td>2010</td><td>237</td><td>N/A</td></tr><tr><td>Research into the engineering application of reverse engineering technology</td><td>Y Zhang</td><td>2003</td><td>107</td><td>N/A</td></tr><tr><td>Software reverse engineering in the real world</td><td>A Johnson-Laird</td><td>1993</td><td>159</td><td>N/A</td></tr><tr><td>Pattern-based reverse-engineering of design components</td><td>RK Keller, R Schauer, S Robitaille, P Pagé</td><td>1999</td><td>380</td><td>N/A</td></tr><tr><td>The state-of-the-art in semiconductor reverse engineering</td><td>R Torrance, D James</td><td>2011</td><td>368</td><td>N/A</td></tr><tr><td>Introduction to reverse engineering</td><td>V Raja</td><td>2008</td><td>74</td><td>N/A</td></tr><tr><td>Programmable reverse engineering</td><td>SR Tilley, K Wong, MAD Storey…</td><td>1994</td><td>203</td><td>N/A</td></tr><tr><td>Empirical studies in reverse engineering: state of the art and future trends</td><td>P Tonella, M Torchiano, B Du Bois, T Systä</td><td>2007</td><td>176</td><td>N/A</td></tr><tr><td>Reverse-engineering narrative: Evidence of special design</td><td>MS Sugiyama</td><td>2005</td><td>245</td><td>N/A</td></tr><tr><td>Reverse engineering and identification in systems biology: strategies, perspectives and challenges</td><td>AF Villaverde, JR Banga</td><td>2014</td><td>305</td><td>N/A</td></tr><tr><td>Model-driven reverse engineering</td><td>S Rugaber, K Stirewalt</td><td>2004</td><td>127</td><td>N/A</td></tr><tr><td>An approach for reverse engineering of relational databases</td><td>WJ Premerlani, MR Blaha</td><td>1993</td><td>397</td><td>N/A</td></tr><tr><td>Reverse engineering to the architectural level</td><td>DR Harris, HB Reubenstein, AS Yeh</td><td>1995</td><td>165</td><td>N/A</td></tr><tr><td>Reverse engineering of object oriented code</td><td>P Tonella</td><td>2005</td><td>212</td><td>N/A</td></tr><tr><td>A comparison of four reverse engineering tools</td><td>B Bellay, H Gall</td><td>1997</td><td>135</td><td>N/A</td></tr><tr><td>Application of reverse engineering techniques in mechanics system services</td><td>M Dúbravčík, Š Kender</td><td>2012</td><td>119</td><td>N/A</td></tr><tr><td>Review of reverse engineering systems–current state of the art</td><td>Z Geng, B Bidanda</td><td>2017</td><td>134</td><td>N/A</td></tr><tr><td>Reverse engineering cellular networks</td><td>AA Margolin, K Wang, WK Lim, M Kustagi…</td><td>2006</td><td>453</td><td>N/A</td></tr><tr><td>Feature-based reverse engineering of mechanical parts</td><td>WB Thompson, JC Owen, HJS Germain…</td><td>1999</td><td>350</td><td>N/A</td></tr><tr><td>Algorithms for reverse engineering boundary representation models</td><td>P Benkő, RR Martin, T Várady</td><td>2001</td><td>329</td><td>N/A</td></tr><tr><td>Advances in the field of reverse engineering</td><td>C Bradley, B Currie</td><td>2005</td><td>88</td><td>N/A</td></tr><tr><td>Tupni: Automatic reverse engineering of input formats</td><td>W Cui, M Peinado, K Chen, HJ Wang…</td><td>2008</td><td>336</td><td>N/A</td></tr><tr><td>Product evolution: a reverse engineering and redesign methodology</td><td>KN Otto, KL Wood</td><td>1998</td><td>442</td><td>N/A</td></tr><tr><td>Constrained fitting in reverse engineering</td><td>P Benko, G Kós, T Várady, L Andor, R Martin</td><td>2002</td><td>289</td><td>N/A</td></tr><tr><td>From reverse engineering to shape engineering in mechanical design</td><td>N Anwer, L Mathieu</td><td>2016</td><td>150</td><td>N/A</td></tr><tr><td>Reverse engineering method stereotypes</td><td>N Dragan, ML Collard, JI Maletic</td><td>2006</td><td>123</td><td>N/A</td></tr><tr><td>Reverse engineering feature models</td><td>S She, R Lotufo, T Berger, A Wąsowski…</td><td>2011</td><td>406</td><td>N/A</td></tr><tr><td>Understanding software systems using reverse engineering technology</td><td>HA Müller, K Wong, SR Tilley</td><td>1995</td><td>255</td><td>N/A</td></tr><tr><td>Data reduction methods for reverse engineering</td><td>KH Lee, H Woo, T Suk</td><td>2001</td><td>222</td><td>N/A</td></tr><tr><td>Reverse engineering</td><td>G Šagi, Z Lulić, I Mahalec</td><td>2015</td><td>14</td><td>N/A</td></tr><tr><td>Reverse engineering</td><td>JH Cross II, EJ Chikofsky, CH May Jr</td><td>1992</td><td>46</td><td>N/A</td></tr><tr><td>Database reverse engineering</td><td>JL Hainaut, J Henrard, D Roland, JM Hick…</td><td>2009</td><td>114</td><td>N/A</td></tr><tr><td>Reverse engineering</td><td>D Ciraco</td><td>2001</td><td>12</td><td>N/A</td></tr><tr><td>Query reverse engineering</td><td>QT Tran, CY Chan, S Parthasarathy</td><td>2014</td><td>132</td><td>N/A</td></tr><tr><td>Automated reverse engineering of nonlinear dynamical systems</td><td>J Bongard, H Lipson</td><td>2007</td><td>925</td><td>N/A</td></tr><tr><td>A survey on chip to system reverse engineering</td><td>SE Quadir, J Chen, D Forte, N Asadizanjani…</td><td>2016</td><td>337</td><td>N/A</td></tr><tr><td>Data reduction for reverse engineering</td><td>R Martin, I Stroud, A Marshall</td><td>1997</td><td>122</td><td>N/A</td></tr><tr><td>A sustainable reverse engineering process</td><td>K Saiga, AMMS Ullah, A Kubo</td><td>2021</td><td>48</td><td>N/A</td></tr><tr><td>A reverse‐engineering approach to subsystem structure identification</td><td>HA Müller, MA Orgun, SR Tilley…</td><td>1993</td><td>508</td><td>N/A</td></tr><tr><td>Reverse engineering</td><td>J Hoschek, W Dankwort</td><td>1996</td><td>44</td><td>N/A</td></tr><tr><td>Reverse engineering</td><td>T HAN, F IC</td><td>1995</td><td>50</td><td>N/A</td></tr><tr><td>Polymetric views-a lightweight visual approach to reverse engineering</td><td>M Lanza, S Ducasse</td><td>2003</td><td>579</td><td>N/A</td></tr><tr><td>Modisco: A model driven reverse engineering framework</td><td>H Bruneliere, J Cabot, G Dupé, F Madiot</td><td>2014</td><td>330</td><td>N/A</td></tr><tr><td>Hardware reverse engineering: Overview and open challenges</td><td>M Fyrbiak, S Strauß, C Kison, S Wallat…</td><td>2017</td><td>123</td><td>N/A</td></tr><tr><td>A new model of program dependences for reverse engineering</td><td>D Jackson, EJ Rollins</td><td>1994</td><td>191</td><td>N/A</td></tr><tr><td>Reverse engineering of protocols from network traces</td><td>J Antunes, N Neves, P Verissimo</td><td>2011</td><td>135</td><td>N/A</td></tr><tr><td>Achievements and challenges in software reverse engineering</td><td>G Canfora, M Di Penta, L Cerulo</td><td>2011</td><td>206</td><td>N/A</td></tr><tr><td>Reverse engineering and redesign: Courses to incrementally and systematically teach design</td><td>KL Wood, D Jensen, J Bezdek…</td><td>2001</td><td>248</td><td>N/A</td></tr><tr><td>Reverse engineering industrial applications</td><td>RJ Abella, JM Daschbach, RJ McNichols</td><td>1994</td><td>109</td><td>N/A</td></tr><tr><td>Reverse engineering the euglenoid movement</td><td>M Arroyo, L Heltai, D Millán…</td><td>2012</td><td>136</td><td>N/A</td></tr><tr><td>RE2: Reverse‐engineering and reuse re‐engineering</td><td>G Canfora, A Cimitile, M Munro</td><td>1994</td><td>108</td><td>N/A</td></tr><tr><td>A reverse engineering and redesign methodology for product evolution</td><td>KN Otto, KL Wood</td><td>1996</td><td>143</td><td>N/A</td></tr><tr><td>Reverse engineering the mouse brain</td><td>DH O'Connor, D Huber, K Svoboda</td><td>2009</td><td>164</td><td>N/A</td></tr><tr><td>Towards reverse-engineering black-box neural networks</td><td>SJ Oh, B Schiele, M Fritz</td><td>2019</td><td>474</td><td>N/A</td></tr><tr><td>Fundamentals of Engineering Design, Product Design: Techniques on Reverse Engineering and New</td><td>B Hyman</td><td>2003</td><td>365</td><td>N/A</td></tr><tr><td>A survey of automatic protocol reverse engineering tools</td><td>J Narayan, SK Shukla, TC Clancy</td><td>2015</td><td>115</td><td>N/A</td></tr><tr><td>Reverse engineering</td><td>WC Chu, CW Lu, CH Chang, YC Chung…</td><td>2002</td><td>27</td><td>N/A</td></tr><tr><td>An introduction to engineering through an integrated reverse engineering and design graphics project</td><td>RE Barr, PS Schmidt, TJ Krueger…</td><td>2000</td><td>114</td><td>N/A</td></tr><tr><td>Software reverse engineering</td><td>T Cipresso, M Stamp</td><td>2010</td><td>39</td><td>N/A</td></tr><tr><td>The practical origins of ideas: Genealogy as conceptual reverse-engineering</td><td>M Queloz</td><td>2021</td><td>171</td><td>N/A</td></tr><tr><td>Reverse engineering by fringe projection</td><td>J Burke, T Bothe, W Osten…</td><td>2002</td><td>173</td><td>N/A</td></tr><tr><td>RE (reverse engineering) as necessary phase by rapid product development</td><td>M Sokovic, J Kopac</td><td>2006</td><td>218</td><td>N/A</td></tr><tr><td>Applying knowledge to reverse engineering problems</td><td>RB Fisher</td><td>2004</td><td>110</td><td>N/A</td></tr><tr><td>TIE: Principled reverse engineering of types in binary programs</td><td>JH Lee, T Avgerinos, D Brumley</td><td>2011</td><td>301</td><td>N/A</td></tr><tr><td>Reverse engineering and Its applications</td><td>A Bhatti, NA Syed, P John</td><td>2018</td><td>20</td><td>N/A</td></tr><tr><td>An observational investigation of reverse {Engineers'} processes</td><td>D Votipka, S Rabin, K Micinski, JS Foster…</td><td>2020</td><td>99</td><td>N/A</td></tr><tr><td>A reverse engineering system for rapid manufacturing of complex objects</td><td>L Li, N Schemenauer, X Peng, Y Zeng, P Gu</td><td>2002</td><td>205</td><td>N/A</td></tr><tr><td>Reverse engineering in product manufacturing: an overview</td><td>A Kumar, PK Jain, PM Pathak</td><td>2013</td><td>96</td><td>N/A</td></tr><tr><td>Reverse engineering of mechanical parts: A template-based approach</td><td>F Buonamici, M Carfagni, R Furferi…</td><td>2018</td><td>106</td><td>N/A</td></tr><tr><td>Reverse-Engineering a Cryptographic RFID Tag.</td><td>K Nohl, D Evans, S Starbug, H Plötz</td><td>2008</td><td>394</td><td>N/A</td></tr><tr><td>Program and interface slicing for reverse engineering</td><td>J Beck, D Eichmann</td><td>1993</td><td>221</td><td>N/A</td></tr><tr><td>Shimba—an environment for reverse engineering Java software systems</td><td>T Systä, K Koskimies, H Müller</td><td>2001</td><td>198</td><td>N/A</td></tr><tr><td>Why teach reverse engineering?</td><td>MR Ali</td><td>2005</td><td>52</td><td>N/A</td></tr><tr><td>Software reverse engineering: a case study</td><td>EJ Byrne</td><td>1991</td><td>83</td><td>N/A</td></tr><tr><td>An approach for reverse engineering of design patterns</td><td>I Philippow, D Streitferdt, M Riebisch…</td><td>2005</td><td>99</td><td>N/A</td></tr><tr><td>Challenges to the field of reverse engineering</td><td>PG Selfridge, RC Waters…</td><td>1993</td><td>75</td><td>N/A</td></tr><tr><td>Automatic reverse engineering of malware emulators</td><td>M Sharif, A Lanzi, J Giffin, W Lee</td><td>2009</td><td>299</td><td>N/A</td></tr><tr><td>Reverse engineering of free-form surfaces</td><td>A Werner, K Skalski, S Piszczatowski…</td><td>1998</td><td>106</td><td>N/A</td></tr><tr><td>Direct integration of reverse engineering and rapid prototyping</td><td>KH Lee, H Woo</td><td>2000</td><td>169</td><td>N/A</td></tr><tr><td>Reverse engineering mobile application user interfaces with remaui (t)</td><td>TA Nguyen, C Csallner</td><td>2015</td><td>257</td><td>N/A</td></tr><tr><td>Reverse engineering software ecosystems</td><td>MF Lungu</td><td>2009</td><td>118</td><td>N/A</td></tr><tr><td>Model-driven reverse engineering approaches: A systematic literature review</td><td>C Raibulet, FA Fontana, M Zanoni</td><td>2017</td><td>96</td><td>N/A</td></tr><tr><td>READ: Reverse engineering of automotive data frames</td><td>M Marchetti, D Stabili</td><td>2018</td><td>161</td><td>N/A</td></tr><tr><td>MoDisco: a generic and extensible framework for model driven reverse engineering</td><td>H Bruneliere, J Cabot, F Jouault, F Madiot</td><td>2010</td><td>301</td><td>N/A</td></tr><tr><td>Software visualization in software maintenance, reverse engineering, and re‐engineering: a research survey</td><td>R Koschke</td><td>2003</td><td>310</td><td>N/A</td></tr><tr><td>Smooth-surface approximation and reverse engineering</td><td>B Sarkar, CH Menq</td><td>1991</td><td>305</td><td>N/A</td></tr></tbody></table>
+                </div>
+            </div>
+            
+            <script>
+                // Format data for charts
+                const yearlyPapersData = {1985: 1, 1990: 1, 1991: 2, 1992: 1, 1993: 5, 1994: 4, 1995: 3, 1996: 2, 1997: 4, 1998: 2, 1999: 3, 2000: 3, 2001: 6, 2002: 5, 2003: 4, 2004: 2, 2005: 6, 2006: 3, 2007: 4, 2008: 3, 2009: 5, 2010: 3, 2011: 6, 2012: 2, 2013: 1, 2014: 3, 2015: 3, 2016: 2, 2017: 3, 2018: 4, 2019: 1, 2020: 1, 2021: 2};
+                const yearlyCitationsData = {1985: 257, 1990: 3627, 1991: 388, 1992: 46, 1993: 1360, 1994: 611, 1995: 470, 1996: 187, 1997: 2503, 1998: 548, 1999: 922, 2000: 712, 2001: 1848, 2002: 2263, 2003: 1361, 2004: 237, 2005: 1000, 2006: 794, 2007: 2016, 2008: 804, 2009: 1211, 2010: 577, 2011: 2297, 2012: 255, 2013: 96, 2014: 767, 2015: 386, 2016: 487, 2017: 353, 2018: 437, 2019: 474, 2020: 99, 2021: 219};
+                
+                // Create yearly papers chart
+                const yearlyPapersTrace = {
+                    x: Object.keys(yearlyPapersData),
+                    y: Object.values(yearlyPapersData),
+                    type: 'bar',
+                    name: 'Publications'
+                };
+                
+                Plotly.newPlot('yearly-papers-chart', [yearlyPapersTrace], {
+                    title: 'Distribution annuelle des publications',
+                    xaxis: { title: 'Année' },
+                    yaxis: { title: 'Nombre de publications' }
+                });
+                
+                // Create yearly citations chart
+                const yearlyCitationsTrace = {
+                    x: Object.keys(yearlyCitationsData),
+                    y: Object.values(yearlyCitationsData),
+                    type: 'scatter',
+                    mode: 'lines+markers',
+                    name: 'Citations'
+                };
+                
+                Plotly.newPlot('yearly-citations-chart', [yearlyCitationsTrace], {
+                    title: 'Évolution des citations par année',
+                    xaxis: { title: 'Année' },
+                    yaxis: { title: 'Nombre de citations' }
+                });
+            </script>
+        </body>
+        </html>
+        

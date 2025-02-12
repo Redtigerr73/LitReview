@@ -1,5 +1,17 @@
 # LitReview Configuration
 
+# Chrome configuration
+chrome:
+  window_size:
+    width: 1920
+    height: 1080
+  options:
+    - "--no-sandbox"
+    - "--disable-dev-shm-usage"
+    - "--disable-gpu"
+    - "--disable-extensions"
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
 # Output directory for exported files
 output_dir: "data"
 
@@ -10,9 +22,164 @@ max_results: 1000
 export_format: "excel"
 
 # Rate limiting configuration
-rate_limit_delay: 3.0  # Initial delay between requests in seconds
-max_retries: 3        # Maximum number of retries per page
-use_proxy: false      # Enable proxy support (future feature)
+rate_limit_delay: 5.0  # Initial delay between requests in seconds
+max_retries: 5        # Maximum number of retries per page
+use_proxy: false      # Enable proxy support
+
+# Proxy configuration
+proxies:
+  # Add your proxy servers here in the format:
+  # - http: "http://proxy.example.com:8080"
+  # - https: "https://proxy.example.com:8080"
+  # You can find free proxy lists at:
+  # - https://free-proxy-list.net/
+  # - https://www.sslproxies.org/
+  # - https://www.proxynova.com/
+  - http: "http://proxy1.example.com:8080"
+  - http: "http://proxy2.example.com:8080"
 
 # Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
 log_level: "INFO"
+
+# Systematic Literature Review Configuration
+slr_config:
+  # Analysis Configuration
+  analysis:
+    # Temporal Analysis
+    temporal:
+      window_size: 5  # Rolling window size for trend analysis
+      min_citations: 5  # Minimum citations for impact analysis
+      growth_metrics: true  # Calculate growth metrics
+    
+    # Topic Analysis
+    topics:
+      num_topics: 10  # Number of topics for LDA
+      max_features: 2000  # Maximum number of features for vectorization
+      update_interval: 1  # Update interval for LDA
+      
+    # Citation Analysis
+    citations:
+      min_citations: 1  # Minimum citations for network analysis
+      network_layout: "spring"  # Network layout algorithm
+      include_self_citations: false
+      
+    # Quality Assessment
+    quality:
+      methodology_keywords:
+        empirical:
+          - "experiment"
+          - "case study"
+          - "survey"
+          - "questionnaire"
+        theoretical:
+          - "theory"
+          - "framework"
+          - "model"
+          - "concept"
+        validation:
+          - "validation"
+          - "evaluation"
+          - "assessment"
+          - "testing"
+      
+    # Text Processing
+    text_processing:
+      language: "english"
+      remove_stopwords: true
+      lemmatize: true
+      min_word_length: 3
+      custom_stopwords: []
+  
+  # Visualization Configuration
+  visualization:
+    # General Settings
+    style: "plotly_white"
+    colorscale: "Viridis"
+    font_family: "Arial"
+    
+    # Plot Specific Settings
+    temporal_plot:
+      include_trendline: true
+      show_confidence_interval: true
+      
+    network_plot:
+      node_size_factor: 10
+      edge_width: 0.5
+      show_labels: true
+      
+    topic_plot:
+      top_n_words: 10
+      show_word_cloud: true
+      
+    methodology_plot:
+      plot_type: "bar"  # or "pie"
+      show_percentages: true
+  
+  # Export Configuration
+  export:
+    formats:
+      - "excel"
+      - "pdf"
+      - "html"
+    
+    pdf:
+      paper_size: "A4"
+      orientation: "portrait"
+      font_family: "Arial"
+      include_figures: true
+      dpi: 300
+      
+    excel:
+      include_metadata: true
+      separate_sheets: true
+      sheet_names:
+        - "Summary"
+        - "Papers"
+        - "Authors"
+        - "Topics"
+        - "Citations"
+    
+    html:
+      template: "academic"
+      interactive: true
+      include_plotly: true
+      
+  # Data Sources Configuration
+  data_sources:
+    - name: "scholar"
+      enabled: true
+      priority: 1
+    - name: "ieee"
+      enabled: true
+      priority: 2
+    - name: "springer"
+      enabled: true
+      priority: 3
+    - name: "sciencedirect"
+      enabled: false
+      priority: 4
+      
+  # Taxonomy Configuration
+  taxonomy:
+    enabled: true
+    categories:
+      - name: "Research Type"
+        subcategories:
+          - "Empirical"
+          - "Theoretical"
+          - "Review"
+          - "Tool/Implementation"
+      - name: "Contribution Type"
+        subcategories:
+          - "Method"
+          - "Tool"
+          - "Model"
+          - "Framework"
+          - "Process"
+      - name: "Research Method"
+        subcategories:
+          - "Case Study"
+          - "Survey"
+          - "Experiment"
+          - "Action Research"
+          - "Grounded Theory"

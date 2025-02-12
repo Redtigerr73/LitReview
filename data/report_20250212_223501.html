@@ -1,0 +1,234 @@
+
+        <!DOCTYPE html>
+        <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Rapport d'Analyse de Littérature Systématique</title>
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+            <style>
+                body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+                .container { max-width: 1200px; margin: auto; }
+                .section { margin-bottom: 30px; padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
+                .section h2 { color: #2c3e50; margin-bottom: 20px; }
+                .metric-card { background: #f8f9fa; padding: 15px; margin: 10px; border-radius: 5px; }
+                .metric-value { font-size: 24px; font-weight: bold; color: #2c3e50; }
+                .metric-label { font-size: 14px; color: #7f8c8d; }
+                table { width: 100%; margin-bottom: 1rem; }
+                th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+                th { background-color: #f8f9fa; }
+                .chart { margin: 20px 0; height: 400px; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1 class="text-center mb-4">Rapport d'Analyse de Littérature Systématique</h1>
+                
+                <!-- Informations de base -->
+                <div class="section">
+                    <h2>Informations de base</h2>
+                    <p><strong>Requête :</strong> TESLA</p>
+                    <p><strong>Date de génération :</strong> 20250212_223501</p>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="metric-card">
+                                <div class="metric-value">20</div>
+                                <div class="metric-label">Articles au total</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="metric-card">
+                                <div class="metric-value">1977 - 2023</div>
+                                <div class="metric-label">Période couverte</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="metric-card">
+                                <div class="metric-value">4953</div>
+                                <div class="metric-label">Citations totales</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="metric-card">
+                                <div class="metric-value">247.65</div>
+                                <div class="metric-label">Citations moyennes</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analyse temporelle -->
+                <div class="section">
+                    <h2>Analyse temporelle</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Distribution annuelle des publications</h4>
+                            <div id="yearly-papers-chart" class="chart"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Évolution des citations</h4>
+                            <div id="yearly-citations-chart" class="chart"></div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <h4>Taux de croissance</h4>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Année</th>
+                                    <th>Taux de croissance (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>2013</td><td>0.0%</td></tr><tr><td>2015</td><td>100.0%</td></tr><tr><td>2018</td><td>-50.0%</td></tr><tr><td>2020</td><td>0.0%</td></tr><tr><td>2023</td><td>0.0%</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <!-- Analyse des citations -->
+                <div class="section">
+                    <h2>Analyse des citations</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Distribution des citations</h4>
+                            <table class='table'><thead><tr><th>Plage</th><th>Nombre d'articles</th></tr></thead><tbody><tr><td>Non cité</td><td>0</td></tr><tr><td>1-10 citations</td><td>0</td></tr><tr><td>11-50 citations</td><td>5</td></tr><tr><td>51-100 citations</td><td>1</td></tr><tr><td>100+ citations</td><td>14</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Articles les plus cités</h4>
+                            <table class='table'><thead><tr><th>Titre</th><th>Citations</th></tr></thead><tbody><tr><td>TESLA broadcast authentication</td><td>1407</td></tr><tr><td>Superconducting TESLA cavities</td><td>805</td></tr><tr><td>Tesla: man out of time</td><td>530</td></tr><tr><td>TESLA technical design report part I: Executive summary</td><td>304</td></tr><tr><td>Prodigal genius: the life of Nikola Tesla</td><td>241</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analyse des auteurs -->
+                <div class="section">
+                    <h2>Analyse des auteurs</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Statistiques de collaboration</h4>
+                            <table class='table'><tbody><tr><td>Nombre total d'auteurs</td><td>37</td></tr><tr><td>Moyenne d'auteurs par article</td><td>2.15</td></tr><tr><td>Articles à auteur unique</td><td>11</td></tr><tr><td>Articles en collaboration</td><td>9</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Auteurs les plus prolifiques</h4>
+                            <table class='table'><thead><tr><th>Auteur</th><th>Articles</th><th>Citations</th></tr></thead><tbody><tr><td>N Tesla</td><td>5</td><td>345</td></tr><tr><td>A Perrig</td><td>2</td><td>1407</td></tr><tr><td>JD Tygar</td><td>2</td><td>1407</td></tr><tr><td>DH Childress</td><td>1</td><td>71</td></tr><tr><td>G Berdichevsky</td><td>1</td><td>172</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analyse des sujets -->
+                <div class="section">
+                    <h2>Analyse des sujets</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Clusters thématiques</h4>
+                            <table class='table'><thead><tr><th>Cluster</th><th>Termes principaux</th><th>Taille</th></tr></thead><tbody><tr><td>0</td><td>electric, tesla, produced, produce, teslas</td><td>2</td></tr><tr><td>1</td><td>tesla, authentication, inventor, electrical, work</td><td>5</td></tr><tr><td>2</td><td>tesla, nikola, mind, complete, invention</td><td>5</td></tr><tr><td>3</td><td>mri, imaging, mr, magnetic, resonance</td><td>3</td></tr><tr><td>4</td><td>tesla, design, today, cavity, roadster</td><td>5</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Évolution des sujets</h4>
+                            <table class='table'><thead><tr><th>Année</th><th>Sujets dominants</th></tr></thead><tbody><tr><td>2015</td><td>Tesla, electric, Open</td></tr><tr><td>2018</td><td>auto, industry, Tesla</td></tr><tr><td>2020</td><td>strange, life, Nikola</td></tr><tr><td>2023</td><td>TESLA, trial, rationale</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analyse méthodologique -->
+                <div class="section">
+                    <h2>Analyse méthodologique</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Distribution des méthodologies</h4>
+                            <table class='table'><thead><tr><th>Méthodologie</th><th>Nombre d'articles</th></tr></thead><tbody><tr><td>review</td><td>1</td></tr><tr><td>empirical</td><td>1</td></tr><tr><td>theoretical</td><td>1</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Types d'études</h4>
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Études primaires</td>
+                                        <td>19</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Études secondaires</td>
+                                        <td>1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Évaluation de la qualité -->
+                <div class="section">
+                    <h2>Évaluation de la qualité</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Métriques de qualité</h4>
+                            <table class='table'><tbody><tr><td>Articles avec résumé</td><td>20</td></tr><tr><td>Articles cités</td><td>20</td></tr><tr><td>Articles récents (≥ 2020)</td><td>2</td></tr><tr><td>Articles à fort impact</td><td>5</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Distribution de la qualité</h4>
+                            <table class='table'><tbody><tr><td>Qualité élevée</td><td>5</td></tr><tr><td>Qualité moyenne</td><td>10</td></tr><tr><td>Qualité faible</td><td>5</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Lacunes de recherche -->
+                <div class="section">
+                    <h2>Lacunes et directions futures</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Sujets émergents</h4>
+                            <table class='table'><thead><tr><th>Sujet</th><th>Score d'émergence</th></tr></thead><tbody><tr><td>tesla</td><td>0.3265</td></tr><tr><td>purpose</td><td>0.2325</td></tr><tr><td>progressive</td><td>0.2325</td></tr><tr><td>man</td><td>0.2325</td></tr><tr><td>mastery</td><td>0.2325</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Zones peu explorées</h4>
+                            <table class='table'><thead><tr><th>Domaine</th><th>Articles</th><th>Citations moyennes</th></tr></thead><tbody><tr><td>broadcast</td><td>1</td><td>1407.0</td></tr><tr><td>authentication</td><td>1</td><td>1407.0</td></tr><tr><td>introduce</td><td>1</td><td>1407.0</td></tr><tr><td>short</td><td>1</td><td>1407.0</td></tr><tr><td>Timed</td><td>1</td><td>1407.0</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Liste des articles -->
+                <div class="section">
+                    <h2>Liste des articles</h2>
+                    <table class='table'><thead><tr><th>Titre</th><th>Auteurs</th><th>Année</th><th>Citations</th><th>Venue</th></tr></thead><tbody><tr><td>The fantastic inventions of Nikola Tesla</td><td>N Tesla, DH Childress</td><td>1993</td><td>71</td><td>N/A</td></tr><tr><td>The tesla roadster battery system</td><td>G Berdichevsky, K Kelty, JB Straubel, E Toomre</td><td>2006</td><td>172</td><td>N/A</td></tr><tr><td>The Tesla Papers</td><td>N Tesla</td><td>2000</td><td>15</td><td>N/A</td></tr><tr><td>Superconducting TESLA cavities</td><td>B Aune, R Bandelmann, D Bloess, B Bonin…</td><td>2000</td><td>805</td><td>N/A</td></tr><tr><td>About Tesla</td><td>T Motors</td><td>2015</td><td>30</td><td>N/A</td></tr><tr><td>The inventions, researches and writings of Nikola Tesla</td><td>TC Martin</td><td>1977</td><td>150</td><td>N/A</td></tr><tr><td>Tesla: Inventor of the electrical age</td><td>WB Carlson</td><td>2013</td><td>182</td><td>N/A</td></tr><tr><td>Tesla: man out of time</td><td>M Cheney</td><td>2001</td><td>530</td><td>N/A</td></tr><tr><td>Prodigal genius: the life of Nikola Tesla</td><td>J O'Neill</td><td>2007</td><td>241</td><td>N/A</td></tr><tr><td>TESLA technical design report part I: Executive summary</td><td>F Richard, JR Schneider, D Trines…</td><td>2001</td><td>304</td><td>N/A</td></tr><tr><td>Nikola tesla and the wireless transmission of energy</td><td>AS Marincic</td><td>1982</td><td>222</td><td>N/A</td></tr><tr><td>Complete Patents of Nikola Tesla</td><td>N Tesla</td><td>1983</td><td>33</td><td>N/A</td></tr><tr><td>Tesla and the reshaping of the auto industry</td><td>DJ Teece</td><td>2018</td><td>127</td><td>N/A</td></tr><tr><td>A systematic review of the utility of 1.5 versus 3 Tesla magnetic resonance brain imaging in clinical practice and research</td><td>JM Wardlaw, W Brindle, AM Casado, K Shuler…</td><td>2012</td><td>101</td><td>N/A</td></tr><tr><td>Application of three-tesla magnetic resonance imaging for diagnosis and surgery of sellar lesions</td><td>S Wolfsberger, A Ba-Ssalamah, K Pinker…</td><td>2004</td><td>147</td><td>N/A</td></tr><tr><td>TESLA trial: rationale, protocol, and design</td><td>OO Zaidat, SA Kasab, S Sheth…</td><td>2023</td><td>50</td><td>N/A</td></tr><tr><td>The strange life of Nikola Tesla</td><td>N Tesla</td><td>2020</td><td>11</td><td>N/A</td></tr><tr><td>TESLA broadcast authentication</td><td>A Perrig, JD Tygar, A Perrig, JD Tygar</td><td>2003</td><td>1407</td><td>N/A</td></tr><tr><td>3 Tesla MRI: successful results with higher field strengths</td><td>F Schmitt, D Grosu, C Mohr, D Purdy, K Salem…</td><td>2004</td><td>140</td><td>N/A</td></tr><tr><td>The true wireless</td><td>N Tesla</td><td>2015</td><td>215</td><td>N/A</td></tr></tbody></table>
+                </div>
+            </div>
+            
+            <script>
+                // Format data for charts
+                const yearlyPapersData = {1977: 1, 1982: 1, 1983: 1, 1993: 1, 2000: 2, 2001: 2, 2003: 1, 2004: 2, 2006: 1, 2007: 1, 2012: 1, 2013: 1, 2015: 2, 2018: 1, 2020: 1, 2023: 1};
+                const yearlyCitationsData = {1977: 150, 1982: 222, 1983: 33, 1993: 71, 2000: 820, 2001: 834, 2003: 1407, 2004: 287, 2006: 172, 2007: 241, 2012: 101, 2013: 182, 2015: 245, 2018: 127, 2020: 11, 2023: 50};
+                
+                // Create yearly papers chart
+                const yearlyPapersTrace = {
+                    x: Object.keys(yearlyPapersData),
+                    y: Object.values(yearlyPapersData),
+                    type: 'bar',
+                    name: 'Publications'
+                };
+                
+                Plotly.newPlot('yearly-papers-chart', [yearlyPapersTrace], {
+                    title: 'Distribution annuelle des publications',
+                    xaxis: { title: 'Année' },
+                    yaxis: { title: 'Nombre de publications' }
+                });
+                
+                // Create yearly citations chart
+                const yearlyCitationsTrace = {
+                    x: Object.keys(yearlyCitationsData),
+                    y: Object.values(yearlyCitationsData),
+                    type: 'scatter',
+                    mode: 'lines+markers',
+                    name: 'Citations'
+                };
+                
+                Plotly.newPlot('yearly-citations-chart', [yearlyCitationsTrace], {
+                    title: 'Évolution des citations par année',
+                    xaxis: { title: 'Année' },
+                    yaxis: { title: 'Nombre de citations' }
+                });
+            </script>
+        </body>
+        </html>
+        

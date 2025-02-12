@@ -1,0 +1,29 @@
+{
+  "total_papers": 975,
+  "categories": {
+    "methods": {
+      "total": 8,
+      "subcategories": {
+        "static": 2,
+        "dynamic": 6,
+        "hybrid": 0
+      }
+    },
+    "applications": {
+      "total": 64,
+      "subcategories": {
+        "security": 4,
+        "maintenance": 10,
+        "ai_integration": 50
+      }
+    },
+    "tools": {
+      "total": 1,
+      "subcategories": {
+        "decompilers": 0,
+        "debuggers": 1,
+        "analyzers": 0
+      }
+    }
+  }
+}

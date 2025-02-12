@@ -1,11 +1,92 @@
-beautifulsoup4>=4.9.3
-requests>=2.25.1
-pandas>=1.2.0
-openpyxl>=3.0.7
-tqdm>=4.61.0
-pyyaml>=5.4.1
-matplotlib>=3.4.0
-seaborn>=0.11.0
-wordcloud>=1.8.1
-numpy>=1.20.0
-google-search-results>=2.4.2
+# Web Scraping
+selenium>=4.16.0
+beautifulsoup4==4.12.2
+webdriver-manager>=4.0.1
+requests==2.31.0
+fake-useragent==1.4.0
+lxml==4.9.3
+html5lib==1.1
+soupsieve==2.5
+cssselect==1.2.0
+certifi==2023.7.22
+
+# NLP and Text Processing
+spacy>=3.5.1
+nltk==3.8.1
+textblob==0.17.1
+langdetect==1.0.9
+fr-core-news-md @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_md-3.7.0/fr_core_news_md-3.7.0-py3-none-any.whl
+en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.7.0/en_core_web_md-3.7.0-py3-none-any.whl
+
+# Data Analysis
+pandas==2.1.3
+numpy==1.26.2
+scikit-learn==1.3.2
+networkx==3.2.1
+
+# Visualization
+plotly==5.18.0
+dash==2.14.1
+dash-bootstrap-components==1.5.0
+matplotlib==3.8.2
+seaborn==0.13.0
+wordcloud==1.9.2
+kaleido
+dash-core-components>=2.0.0
+dash-html-components>=2.0.0
+dash-table>=5.0.0
+
+# Excel Support
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+xlrd==2.0.1  # Pour lire les anciens fichiers Excel
+xlwt==1.3.0  # Pour écrire les anciens fichiers Excel
+
+# Progress Bars et UI
+tqdm==4.66.1
+colorama==0.4.6
+
+# Gestion des dates
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# Compression et archivage
+zipp==3.17.0
+python-magic==0.4.27  # Pour détecter les types de fichiers
+chardet==5.2.0  # Pour détecter l'encodage des fichiers
+
+# Configuration Management
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+
+# Error Handling and Logging
+rich>=13.7.0
+loguru>=0.7.2
+
+# Autres utilitaires
+six==1.16.0
+joblib==1.3.2  # Pour le parallélisme et la sauvegarde d'objets
+pywin32>=306
+
+# PDF Support
+fpdf2==2.7.6
+pdfkit==1.0.0
+WeasyPrint==60.1
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Note: Les modèles spaCy doivent être installés séparément avec:
+# python -m spacy download en_core_web_md
+# python -m spacy download fr_core_news_md
+
+# Note: wkhtmltopdf doit être installé séparément:
+# Télécharger et installer depuis: https://wkhtmltopdf.org/downloads.html
+
+# Post-installation script to run after pip install:
+# python -m spacy download en_core_web_md
+# python -m nltk.downloader punkt
+# python -m nltk.downloader stopwords
+# python -m nltk.downloader averaged_perceptron_tagger
+# python -m textblob.download_corpora

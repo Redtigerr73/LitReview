@@ -1,0 +1,234 @@
+
+        <!DOCTYPE html>
+        <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Rapport d'Analyse de Littérature Systématique</title>
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+            <style>
+                body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+                .container { max-width: 1200px; margin: auto; }
+                .section { margin-bottom: 30px; padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
+                .section h2 { color: #2c3e50; margin-bottom: 20px; }
+                .metric-card { background: #f8f9fa; padding: 15px; margin: 10px; border-radius: 5px; }
+                .metric-value { font-size: 24px; font-weight: bold; color: #2c3e50; }
+                .metric-label { font-size: 14px; color: #7f8c8d; }
+                table { width: 100%; margin-bottom: 1rem; }
+                th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+                th { background-color: #f8f9fa; }
+                .chart { margin: 20px 0; height: 400px; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1 class="text-center mb-4">Rapport d'Analyse de Littérature Systématique</h1>
+                
+                <!-- Informations de base -->
+                <div class="section">
+                    <h2>Informations de base</h2>
+                    <p><strong>Requête :</strong> NOKIA</p>
+                    <p><strong>Date de génération :</strong> 20250212_225245</p>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="metric-card">
+                                <div class="metric-value">20</div>
+                                <div class="metric-label">Articles au total</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="metric-card">
+                                <div class="metric-value">2000 - 2021</div>
+                                <div class="metric-label">Période couverte</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="metric-card">
+                                <div class="metric-value">2775</div>
+                                <div class="metric-label">Citations totales</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="metric-card">
+                                <div class="metric-value">138.75</div>
+                                <div class="metric-label">Citations moyennes</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analyse temporelle -->
+                <div class="section">
+                    <h2>Analyse temporelle</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Distribution annuelle des publications</h4>
+                            <div id="yearly-papers-chart" class="chart"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Évolution des citations</h4>
+                            <div id="yearly-citations-chart" class="chart"></div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <h4>Taux de croissance</h4>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Année</th>
+                                    <th>Taux de croissance (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>2014</td><td>100.0%</td></tr><tr><td>2016</td><td>0.0%</td></tr><tr><td>2017</td><td>0.0%</td></tr><tr><td>2018</td><td>-50.0%</td></tr><tr><td>2021</td><td>0.0%</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <!-- Analyse des citations -->
+                <div class="section">
+                    <h2>Analyse des citations</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Distribution des citations</h4>
+                            <table class='table'><thead><tr><th>Plage</th><th>Nombre d'articles</th></tr></thead><tbody><tr><td>Non cité</td><td>1</td></tr><tr><td>1-10 citations</td><td>0</td></tr><tr><td>11-50 citations</td><td>7</td></tr><tr><td>51-100 citations</td><td>5</td></tr><tr><td>100+ citations</td><td>7</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Articles les plus cités</h4>
+                            <table class='table'><thead><tr><th>Titre</th><th>Citations</th></tr></thead><tbody><tr><td>Distributed attention and shared emotions in the innovation process: How Nokia lost the smartphone battle</td><td>688</td></tr><tr><td>Corporate business model transformation and inter-organizational cognition: The case of Nokia</td><td>427</td></tr><tr><td>Strategic management of business model transformation: lessons from Nokia</td><td>303</td></tr><tr><td>Mobile usability: How Nokia changed the face of the cellular phone</td><td>267</td></tr><tr><td>The nokia revolution</td><td>254</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analyse des auteurs -->
+                <div class="section">
+                    <h2>Analyse des auteurs</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Statistiques de collaboration</h4>
+                            <table class='table'><tbody><tr><td>Nombre total d'auteurs</td><td>39</td></tr><tr><td>Moyenne d'auteurs par article</td><td>2.35</td></tr><tr><td>Articles à auteur unique</td><td>3</td></tr><tr><td>Articles en collaboration</td><td>17</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Auteurs les plus prolifiques</h4>
+                            <table class='table'><thead><tr><th>Auteur</th><th>Articles</th><th>Citations</th></tr></thead><tbody><tr><td>JA Lamberg</td><td>3</td><td>810</td></tr><tr><td>H Tikkanen</td><td>3</td><td>810</td></tr><tr><td>J Aspara</td><td>2</td><td>730</td></tr><tr><td>A Laukia</td><td>2</td><td>730</td></tr><tr><td>J Ali-Yrkkö</td><td>2</td><td>122</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analyse des sujets -->
+                <div class="section">
+                    <h2>Analyse des sujets</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Clusters thématiques</h4>
+                            <table class='table'><thead><tr><th>Cluster</th><th>Termes principaux</th><th>Taille</th></tr></thead><tbody><tr><td>0</td><td>downfall, smartphone, nokia, understand, position</td><td>2</td></tr><tr><td>1</td><td>nokia, phone, mobile, market, failed</td><td>5</td></tr><tr><td>2</td><td>business, model, transformation, nokia, order</td><td>2</td></tr><tr><td>3</td><td>nokia, company, study, case, sale</td><td>4</td></tr><tr><td>4</td><td>nokia, story, key, suomen, design</td><td>7</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Évolution des sujets</h4>
+                            <table class='table'><thead><tr><th>Année</th><th>Sujets dominants</th></tr></thead><tbody><tr><td>2016</td><td>Nokia, historical, case</td></tr><tr><td>2017</td><td>Nokia, Ringtone, Exploring</td></tr><tr><td>2018</td><td>Nokia, phone, total</td></tr><tr><td>2021</td><td>Nokia, Corporation, curse</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analyse méthodologique -->
+                <div class="section">
+                    <h2>Analyse méthodologique</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Distribution des méthodologies</h4>
+                            <table class='table'><thead><tr><th>Méthodologie</th><th>Nombre d'articles</th></tr></thead><tbody><tr><td>theoretical</td><td>2</td></tr><tr><td>empirical</td><td>5</td></tr><tr><td>case_study</td><td>2</td></tr><tr><td>review</td><td>1</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Types d'études</h4>
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Études primaires</td>
+                                        <td>19</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Études secondaires</td>
+                                        <td>1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Évaluation de la qualité -->
+                <div class="section">
+                    <h2>Évaluation de la qualité</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Métriques de qualité</h4>
+                            <table class='table'><tbody><tr><td>Articles avec résumé</td><td>20</td></tr><tr><td>Articles cités</td><td>19</td></tr><tr><td>Articles récents (≥ 2020)</td><td>1</td></tr><tr><td>Articles à fort impact</td><td>5</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Distribution de la qualité</h4>
+                            <table class='table'><tbody><tr><td>Qualité élevée</td><td>5</td></tr><tr><td>Qualité moyenne</td><td>10</td></tr><tr><td>Qualité faible</td><td>5</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Lacunes de recherche -->
+                <div class="section">
+                    <h2>Lacunes et directions futures</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Sujets émergents</h4>
+                            <table class='table'><thead><tr><th>Sujet</th><th>Score d'émergence</th></tr></thead><tbody><tr><td>nokia</td><td>0.6489</td></tr><tr><td>corporation</td><td>0.3244</td></tr><tr><td>technology</td><td>0.1622</td></tr><tr><td>examine</td><td>0.1622</td></tr><tr><td>choice</td><td>0.1622</td></tr></tbody></table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Zones peu explorées</h4>
+                            <table class='table'><thead><tr><th>Domaine</th><th>Articles</th><th>Citations moyennes</th></tr></thead><tbody><tr><td>Distributed</td><td>1</td><td>688.0</td></tr><tr><td>attention</td><td>1</td><td>688.0</td></tr><tr><td>shared</td><td>1</td><td>688.0</td></tr><tr><td>emotion</td><td>1</td><td>688.0</td></tr><tr><td>process</td><td>1</td><td>688.0</td></tr></tbody></table>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Liste des articles -->
+                <div class="section">
+                    <h2>Liste des articles</h2>
+                    <table class='table'><thead><tr><th>Titre</th><th>Auteurs</th><th>Année</th><th>Citations</th><th>Venue</th></tr></thead><tbody><tr><td>The nokia revolution</td><td>D Steinbock</td><td>2001</td><td>254</td><td>N/A</td></tr><tr><td>Nokia: The inside story</td><td>M Häikiö, OV Virtanen</td><td>2002</td><td>161</td><td>N/A</td></tr><tr><td>The rise and fall of Nokia</td><td>J Alcacer, T Khanna, C Snively</td><td>2014</td><td>29</td><td>N/A</td></tr><tr><td>Strategic management of business model transformation: lessons from Nokia</td><td>J Aspara, JA Lamberg, A Laukia, H Tikkanen</td><td>2011</td><td>303</td><td>N/A</td></tr><tr><td>Corporate business model transformation and inter-organizational cognition: The case of Nokia</td><td>J Aspara, JA Lamberg, A Laukia, H Tikkanen</td><td>2013</td><td>427</td><td>N/A</td></tr><tr><td>Not only Nokia: what Finland tells us about new economy growth</td><td>F Daveri, O Silva</td><td>2004</td><td>107</td><td>N/A</td></tr><tr><td>Nokia: An historical case study</td><td>B Borhanuddin, A Iqbal</td><td>2016</td><td>16</td><td>N/A</td></tr><tr><td>Distributed attention and shared emotions in the innovation process: How Nokia lost the smartphone battle</td><td>TO Vuori, QN Huy</td><td>2016</td><td>688</td><td>N/A</td></tr><tr><td>Nokia: a case study in managing industry downturn</td><td>R Carral, M Kajanto</td><td>2008</td><td>20</td><td>N/A</td></tr><tr><td>Mobile usability: How Nokia changed the face of the cellular phone</td><td>C Lindholm, T Keinonen</td><td>2003</td><td>267</td><td>N/A</td></tr><tr><td>How Nokia failed to nail the Smartphone market</td><td>H Bouwman, C Carlsson, J Carlsson, S Nikou, A Sell…</td><td>2014</td><td>73</td><td>N/A</td></tr><tr><td>Nokia in the Finnish innovation system</td><td>J Ali-Yrkkö, R Hermans</td><td>2002</td><td>99</td><td>N/A</td></tr><tr><td>Nokia leads change through continuous learning</td><td>L Masalin</td><td>2003</td><td>39</td><td>N/A</td></tr><tr><td>Ringtone: Exploring the rise and fall of Nokia in mobile phones</td><td>Y Doz, K Wilson</td><td>2017</td><td>69</td><td>N/A</td></tr><tr><td>Nokia suomen innovaatiojärjestelmässä</td><td>J Ali-Yrkkö, R Hermans</td><td>2002</td><td>23</td><td>N/A</td></tr><tr><td>Design for the information society: What can we learn from the Nokia experience?</td><td>A Ainamo, M Pantzar</td><td>2000</td><td>33</td><td>N/A</td></tr><tr><td>Nokia sensor: from research to product</td><td>P Persson, Y Jung</td><td>2005</td><td>70</td><td>N/A</td></tr><tr><td>Nokia phones: From a total success to a total fiasco: A study on why Nokia eventually failed to connect people, and an analysis of what the new home of Nokia phones …</td><td>A Alibage, C Weber</td><td>2018</td><td>17</td><td>N/A</td></tr><tr><td>Downfall of nokia</td><td>A Kotaniemi</td><td>2017</td><td>0</td><td>N/A</td></tr><tr><td>The curse of agility: The Nokia Corporation and the loss of market dominance in mobile phones, 2003–2013</td><td>JA Lamberg, S Lubinaitė, J Ojala, H Tikkanen</td><td>2021</td><td>80</td><td>N/A</td></tr></tbody></table>
+                </div>
+            </div>
+            
+            <script>
+                // Format data for charts
+                const yearlyPapersData = {2000: 1, 2001: 1, 2002: 3, 2003: 2, 2004: 1, 2005: 1, 2008: 1, 2011: 1, 2013: 1, 2014: 2, 2016: 2, 2017: 2, 2018: 1, 2021: 1};
+                const yearlyCitationsData = {2000: 33, 2001: 254, 2002: 283, 2003: 306, 2004: 107, 2005: 70, 2008: 20, 2011: 303, 2013: 427, 2014: 102, 2016: 704, 2017: 69, 2018: 17, 2021: 80};
+                
+                // Create yearly papers chart
+                const yearlyPapersTrace = {
+                    x: Object.keys(yearlyPapersData),
+                    y: Object.values(yearlyPapersData),
+                    type: 'bar',
+                    name: 'Publications'
+                };
+                
+                Plotly.newPlot('yearly-papers-chart', [yearlyPapersTrace], {
+                    title: 'Distribution annuelle des publications',
+                    xaxis: { title: 'Année' },
+                    yaxis: { title: 'Nombre de publications' }
+                });
+                
+                // Create yearly citations chart
+                const yearlyCitationsTrace = {
+                    x: Object.keys(yearlyCitationsData),
+                    y: Object.values(yearlyCitationsData),
+                    type: 'scatter',
+                    mode: 'lines+markers',
+                    name: 'Citations'
+                };
+                
+                Plotly.newPlot('yearly-citations-chart', [yearlyCitationsTrace], {
+                    title: 'Évolution des citations par année',
+                    xaxis: { title: 'Année' },
+                    yaxis: { title: 'Nombre de citations' }
+                });
+            </script>
+        </body>
+        </html>
+        
